@@ -1,0 +1,17 @@
+{
+  "THYAO": {"Finlab_Score": 78, "Fundamental_OK": true},
+  "ASELS": {"Finlab_Score": 71, "Fundamental_OK": true},
+  "SASA":  {"Finlab_Score": 55, "Fundamental_OK": true},
+  "KCHOL": {"Finlab_Score": 66, "Fundamental_OK": true},
+  "TUPRS": {"Finlab_Score": 60, "Fundamental_OK": true},
+  "BIMAS": {"Finlab_Score": 74, "Fundamental_OK": true},
+  "EREGL": {"Finlab_Score": 38, "Fundamental_OK": false},
+  "SISE":  {"Finlab_Score": 52, "Fundamental_OK": true},
+  "AKBNK": {"Finlab_Score": 45, "Fundamental_OK": true},
+  "GARAN": {"Finlab_Score": 48, "Fundamental_OK": true},
+  "ISCTR": {"Finlab_Score": 41, "Fundamental_OK": true},
+  "PGSUS": {"Finlab_Score": 69, "Fundamental_OK": true},
+  "TCELL": {"Finlab_Score": 58, "Fundamental_OK": true},
+  "FROTO": {"Finlab_Score": 63, "Fundamental_OK": true},
+  "TOASO": {"Finlab_Score": 57, "Fundamental_OK": true}
+}
