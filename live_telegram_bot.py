@@ -1,105 +1,106 @@
+import os
+import time
+import threading
 import requests
 import pandas as pd
-import time
-import os
+import yfinance as yf
 from dotenv import load_dotenv
+from flask import Flask
 
+# .env dosyasından değişkenleri yükle
 load_dotenv()
 
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
-# Genişletilmiş BIST 100 Hisse Listesi
-BIST100_TICKERS = [
-    "AEFES", "AGHOL", "AHGAZ", "AKBNK", "AKCNS", "AKFGY", "AKSA", "AKSEN",
-    "ALARK", "ALBRK", "ALFAS", "ANSGR", "ARCLK", "ASELS", "ASTOR", "BERA",
-    "BIMAS", "BRSAN", "BRYAT", "BUCIM", "CANTE", "CCOLA", "CIMSA", "CWENE",
-    "DOAS", "DOHOL", "ECILC", "EGEEN", "EKGYO", "ENJSA", "ENKAI", "EREGL",
-    "EUPWR", "EUREK", "FROTO", "GARAN", "GESAN", "GUBRF", "HALKB", "HEKTS",
-    "ISCTR", "ISGYO", "ISMEN", "KCAER", "KCHOL", "KONTR", "KORDS", "KOZAL",
-    "KOZAA", "KRDMD", "MAVI", "MGROS", "MIATK", "ODAS", "OTKAR", "OYAKC",
-    "PETKM", "PGSUS", "QUAGR", "SAHOL", "SASA", "SAYAS", "SDTTR", "SISE",
-    "SKBNK", "SOKM", "TABGD", "TAVHL", "TCELL", "THYAO", "TKFEN", "TOASO",
-    "TSKB", "TTKOM", "TTRAK", "TUPRS", "TURSG", "ULKER", "VAKBN", "VESBE",
-    "VESTL", "YEOTK", "YKBNK", "YYLGD", "ZOREN"
+# --- 1. RENDER İÇİN FLASK SUNUCUSU ---
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Borsa Botu 7/24 Canli ve Aktif!", 200
+
+def run_flask():
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
+
+# Flask'ı arka planda (thread) çalıştır
+threading.Thread(target=run_flask, daemon=True).start()
+
+
+# --- 2. TELEGRAM BİLDİRİM FONKSİYONU ---
+def send_telegram_message(message):
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        print("Hata: TELEGRAM_BOT_TOKEN veya TELEGRAM_CHAT_ID ayarlanmamış!")
+        return
+    
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": message,
+        "parse_mode": "Markdown"
+    }
+    try:
+        response = requests.post(url, json=payload, timeout=10)
+        if response.status_code != 200:
+            print(f"Telegram mesaj gönderme hatası: {response.text}")
+    except Exception as e:
+        print(f"Telegram bağlantı hatası: {e}")
+
+
+# --- 3. BİST 100 TARAMA BOTU ---
+BIST_100_SYMBOLS = [
+    "AKBNK.IS", "ARCLK.IS", "ASELS.IS", "BIMAS.IS", "DOHOL.IS", "EKGYO.IS", "ENKAI.IS", "EREGL.IS",
+    "FROTO.IS", "GARAN.IS", "GUBRF.IS", "HEKTS.IS", "ISCTR.IS", "KCHOL.IS", "KOZAL.IS", "KRDMD.IS",
+    "PETKM.IS", "PGSUS.IS", "SAHOL.IS", "SASA.IS", "SISE.IS", "TCELL.IS", "THYAO.IS", "TKFEN.IS",
+    "TOASO.IS", "TSKB.IS", "TTKOM.IS", "TUPRS.IS", "VAKBN.IS", "YKBNK.IS", "ALBRK.IS", "ANSGR.IS",
+    "ASTOR.IS", "BRSAN.IS", "ENJSA.IS", "EUPWR.IS", "GESAN.IS", "ISGYO.IS", "KCAER.IS", "OYAKC.IS",
+    "SAYAS.IS", "SOKM.IS", "TABGD.IS", "TAVHL.IS"
 ]
 
-def send_telegram(message):
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-        print(f"[LOG]: {message}")
-        return
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"}
-    try:
-        requests.post(url, data=payload, timeout=10)
-    except Exception as e:
-        print(f"Telegram Hatası: {e}")
-
-def get_bist_data(ticker):
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.IS?interval=1d&range=1y"
-    headers = {"User-Agent": "Mozilla/5.0"}
-    try:
-        resp = requests.get(url, headers=headers, timeout=10)
-        if resp.status_code == 200:
-            result = resp.json().get("chart", {}).get("result", [])
-            if result:
-                closes = result[0].get("indicators", {}).get("quote", [{}])[0].get("close", [])
-                closes = [c for c in closes if c is not None]
-                if len(closes) >= 50:
-                    return pd.DataFrame({"close": closes})
-    except Exception:
-        pass
-    return None
-
-def check_stock_signal(ticker):
-    df = get_bist_data(ticker)
-    if df is None:
-        return None
-
-    df['EMA50'] = df['close'].ewm(span=50, adjust=False).mean()
-    delta = df['close'].diff()
-    gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
-    loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
-    rs = gain / loss
-    df['RSI'] = 100 - (100 / (1 + rs))
-
-    last_price = df['close'].iloc[-1]
-    last_ema50 = df['EMA50'].iloc[-1]
-    last_rsi = df['RSI'].iloc[-1]
-
-    # Strateji Koşulu
-    if (last_price > last_ema50) and (48 <= last_rsi <= 72):
-        # En yüksek net getirili optimizasyon parametreleri (%4.0 Kâr Al / %2.5 Stop)
-        tp_price = last_price * 1.040
-        sl_price = last_price * 0.975
-
-        return (
-            f"🎯 **CANLI BIST AL SİNYALİ**: #{ticker}\n"
-            f"------------------------------------\n"
-            f"💵 **Güncel Fiyat:** {last_price:.2f} TRY\n"
-            f"🎯 **Kâr Al Target (%4.0):** {tp_price:.2f} TRY\n"
-            f"🛑 **Stop Loss (%2.5):** {sl_price:.2f} TRY\n"
-            f"📊 **RSI:** {last_rsi:.1f} | **EMA50:** {last_ema50:.2f}"
-        )
-    return None
+def scan_market():
+    print("Market taraması başlatılıyor...")
+    signals_found = 0
+    
+    for symbol in BIST_100_SYMBOLS:
+        try:
+            df = yf.download(symbol, period="1mo", interval="1d", progress=False)
+            if df.empty or len(df) < 10:
+                continue
+            
+            # Son fiyat ve basit analiz örneği
+            last_close = float(df['Close'].iloc[-1])
+            prev_close = float(df['Close'].iloc[-2])
+            change_pct = ((last_close - prev_close) / prev_close) * 100
+            
+            # Örnek Sinyal Şartı (%2'den fazla yükselenler)
+            if change_pct >= 2.0:
+                clean_symbol = symbol.replace(".IS", "")
+                tp_price = last_close * 1.04   # %4 Kar Al
+                sl_price = last_close * 0.975  # %2.5 Stop Loss
+                
+                msg = (
+                    f"🚀 **YENİ ALIM SİNYALİ: #{clean_symbol}**\n\n"
+                    f"📈 **Giriş Fiyatı:** {last_close:.2f} TL (+%{change_pct:.2f})\n"
+                    f"🎯 **Hedef (TP %4):** {tp_price:.2f} TL\n"
+                    f"🛡️ **Stop (SL %2.5):** {sl_price:.2f} TL\n\n"
+                    f"⏰ *Zaman:* Live BIST Scanner"
+                )
+                send_telegram_message(msg)
+                print(f"Sinyal Gönderildi: {clean_symbol}")
+                signals_found += 1
+                
+        except Exception as e:
+            print(f"Hata ({symbol}): {e}")
+            
+    print(f"Tarama tamamlandı. {signals_found} adet sinyal bulundu.")
 
 def main():
-    print(f"🚀 BIST 100 Canlı Sinyal Botu Başlatıldı ({len(BIST100_TICKERS)} Hisse Taranıyor)...")
-    send_telegram(f"🤖 **BIST 100 Canlı Sinyal Botu Başlatıldı!**\n📊 Toplam {len(BIST100_TICKERS)} hisse taranıyor. (%4.0 TP / %2.5 SL)")
-
+    send_telegram_message("🤖 *Borsa Robotu Render üzerinde 7/24 canlıya alındı ve aktif!*")
     while True:
-        print("\n[BIST 100 Taranıyor...]")
-        signal_count = 0
-        for ticker in BIST100_TICKERS:
-            msg = check_stock_signal(ticker)
-            if msg:
-                send_telegram(msg)
-                signal_count += 1
-                print(f"Sinyal Gönderildi: {ticker}")
-            time.sleep(0.5)
-
-        print(f"Tarama tamamlandı. {signal_count} adet sinyal bulundu. 1 saat bekleniyor...")
-        time.sleep(3600)
+        scan_market()
+        print("1 saat bekleniyor...")
+        time.sleep(3600)  # Her 1 saatte bir piyasayı tara
 
 if __name__ == "__main__":
     main()

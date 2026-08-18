@@ -1,12 +1,12 @@
 # --- Veri Katmanı ---
-tradingview-ta>=3.3.0        # BIST teknik verisi (yfinance KULLANILMAZ)
+tradingview-ta>=3.3.0
 pandas>=2.0.0
 numpy>=1.24.0
 
 # --- Zamanlama / Seans Yönetimi ---
 schedule>=1.2.0
 pytz>=2024.1
-holidays>=0.47               # Türkiye resmi tatilleri (BIST kapalı günleri)
+holidays>=0.47
 
 # --- Grafik ---
 matplotlib>=3.8.0
@@ -14,8 +14,11 @@ matplotlib>=3.8.0
 # --- Telegram Bildirim ---
 requests>=2.31.0
 
-# --- Yapay Zeka / LLM Entegrasyonu (opsiyonel, ai_portfolio_manager.py için) ---
+# --- Yapay Zeka / LLM Entegrasyonu ---
 anthropic>=0.40.0
 
 # --- Ortam Değişkenleri ---
 python-dotenv>=1.0.0
+
+# --- Render Sunucusu ve Ping Desteği ---
+flask>=3.0.0
