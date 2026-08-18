@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borsa Robotu - Performans Paneli</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Üst Bilgi / Başlık -->
+        <header class="header">
+            <div class="logo-area">
+                <h1>📈 Borsa Robotu Takip Paneli</h1>
+                <p>Canlı Sinyaller, Portföy Durumu ve Finlab Entegrasyonu</p>
+            </div>
+            <div class="status-badge">
+                <span class="dot"></span> Sistem Aktif (Live)
+            </div>
+        </header>
+
+        <!-- Özet Kartları (Metrikler) -->
+        <div class="metrics-grid">
+            <div class="card">
+                <h3>Toplam Kar / Zarar</h3>
+                <p class="metric-value positive">+%18.42</p>
+                <span class="sub-text">Tüm kapanan işlemler</span>
+            </div>
+            <div class="card">
+                <h3>Bekleyen Pozisyonlar</h3>
+                <p class="metric-value neutral">4 Adet</p>
+                <span class="sub-text">Portföyde aktif hisseler</span>
+            </div>
+            <div class="card">
+                <h3>Başarı Oranı</h3>
+                <p class="metric-value positive">%76.5</p>
+                <span class="sub-text">Karlı / Toplam İşlem</span>
+            </div>
+        </div>
+
+        <!-- Ana İçerik Alanı -->
+        <div class="content-grid">
+            
+            <!-- Satılmayı Bekleyenler (Aktif Pozisyonlar) -->
+            <div class="section-card">
+                <h2>⏳ Satılmayı Bekleyenler (Aktif Hisseler)</h2>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hisse</th>
+                                <th>Alış Fiyatı</th>
+                                <th>Anlık Fiyat</th>
+                                <th>Kar / Zarar</th>
+                                <th>Finlab Detay / Bilgi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>AKBNK.IS</strong></td>
+                                <td>54.20 TL</td>
+                                <td>58.90 TL</td>
+                                <td class="positive">+%8.67</td>
+                                <td><span class="badge info">Güçlü Al - FK: 4.2</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>THYAO.IS</strong></td>
+                                <td>295.00 TL</td>
+                                <td>310.50 TL</td>
+                                <td class="positive">+%5.25</td>
+                                <td><span class="badge info">Hedef Fiyat: 340 TL</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Geçmiş İşlemler ve Kar Yüzdeleri -->
+            <div class="section-card">
+                <h2>✅ Gerçekleşen İşlemler & Kar Yüzdeleri</h2>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hisse</th>
+                                <th>İşlem Türü</th>
+                                <th>Alış / Satış</th>
+                                <th>Getiri</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>GARAN.IS</strong></td>
+                                <td>Al / Sat</td>
+                                <td>82.10 / 94.50</td>
+                                <td class="positive">+%15.10</td>
+                            </tr>
+                            <tr>
+                                <td><strong>EREGL.IS</strong></td>
+                                <td>Al / Sat</td>
+                                <td>48.50 / 53.20</td>
+                                <td class="positive">+%9.69</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
