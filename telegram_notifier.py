@@ -1,7 +1,7 @@
 """
 telegram_notifier.py
 --------------------
-Telegram Bot API üzerinden gün içi al-sat sinyalleri ve grafik bildirimi gönderim modülü.
+Telegram Bot API üzerinden gün içi al-sat sinyalleri, EOD özet tabloları ve watchdog bildirimleri.
 """
 
 import os
@@ -132,31 +132,22 @@ def format_intraday_signal_message(signal_data: dict) -> str:
     price = signal_data.get("price", 0.0)
     tp = signal_data.get("tp", price * 1.025)
     sl = signal_data.get("sl", price * 0.985)
+    tp_pct = signal_data.get("tp_pct", 2.5)
+    sl_pct = signal_data.get("sl_pct", 1.5)
     tv_rec = signal_data.get("tv_rec", "BUY")
+    sector = signal_data.get("sector", "Diğer")
+    strat = signal_data.get("strategy", "8-Indicator Matrix")
     reason = signal_data.get("reason", "TradingView teknik özet BUY sinyali ve hacim artışı.")
 
     msg = (
-        f"🟢 *BIST 100 GÜN İÇİ AL SİNYALİ*\n"
+        f"🟢 *BIST GÜN İÇİ AL SİNYALİ*\n"
         f"━━━━━━━━━━━━━━━━━━━━━━\n"
-        f"📌 *Hisse:* `{symbol}` | *Anlık Fiyat:* `{price:.2f} TL`\n"
-        f"🎯 *Hedef (%2.5):* `{tp:.2f} TL` | 🛡️ *Stop-Loss (%1.5):* `{sl:.2f} TL`\n"
-        f"📊 *TradingView Tavsiyesi:* `{tv_rec}`\n"
+        f"📌 *Hisse:* `{symbol}` ({sector}) | *Anlık Fiyat:* `{price:.2f} TL`\n"
+        f"🎯 *Dinamik Hedef (+%{tp_pct:.1f}):* `{tp:.2f} TL`\n"
+        f"🛡️ *Dinamik Stop (-%{sl_pct:.1f}):* `{sl:.2f} TL`\n"
+        f"📊 *Strateji Matrisi:* `{strat}` ({tv_rec})\n"
         f"💡 *Gerekçe:* {reason}\n"
         f"━━━━━━━━━━━━━━━━━━━━━━\n"
-        f"⏰ *Zaman:* Live TradingView BIST Scanner"
+        f"⏰ *Zaman:* Multithreaded Live TradingView Scanner"
     )
     return msg
-
-
-if __name__ == "__main__":
-    test_sig = {
-        "symbol": "THYAO",
-        "price": 300.00,
-        "tp": 307.50,
-        "sl": 295.00,
-        "tv_rec": "STRONG_BUY",
-        "reason": "RSI 54.2, ADX 26.8, Pozitif MACD Momentum ve 1.5x Hacim Artışı"
-    }
-    m = format_intraday_signal_message(test_sig)
-    print(m)
-    send_message(m)

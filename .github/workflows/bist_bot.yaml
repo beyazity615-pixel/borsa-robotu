@@ -1,0 +1,94 @@
+name: BIST Trading Bot Stateless Cron Workflow
+
+on:
+  schedule:
+    # 1. BIST Seans İçi Tarama (Hafta İçi 10:00 - 18:00 TSI = 07:00 - 15:00 UTC) Her 15 Dakikada Bir
+    - cron: '*/15 7-15 * * 1-5'
+    # 2. BIST Seans Kapanışı EOD Backtest Raporu (Hafta İçi 18:15 TSI = 15:15 UTC)
+    - cron: '15 15 * * 1-5'
+  
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Çalıştırma Modu'
+        required: true
+        default: 'all_stocks_once'
+        type: choice
+        options:
+          - 'all_stocks_once'
+          - 'bist100_once'
+          - 'eval'
+          - 'report'
+          - 'optimize_params'
+          - 'optimize_stocks'
+
+jobs:
+  run_bist_bot:
+    name: BIST Trading Bot Periyodik İcracı
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Repozitovar Kodlarını İndir (Checkout)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Python 3.11 Ortamını Kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Gerekli Python Paketlerini Yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: BIST Al-Sat Botunu Çalıştır
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          EVENT_NAME="${{ github.event_name }}"
+          INPUT_MODE="${{ inputs.mode }}"
+          CURRENT_HOUR_UTC=$(date -u +%H)
+          CURRENT_MIN_UTC=$(date -u +%M)
+
+          echo "🚀 Tetiklenme Türü: $EVENT_NAME | Manuel Mod: $INPUT_MODE | Anlık Saat (UTC): $CURRENT_HOUR_UTC:$CURRENT_MIN_UTC"
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            if [ "$INPUT_MODE" = "all_stocks_once" ]; then
+              python bot.py --all-stocks --once
+            elif [ "$INPUT_MODE" = "bist100_once" ]; then
+              python bot.py --once
+            elif [ "$INPUT_MODE" = "eval" ]; then
+              python bot.py --all-stocks --eval
+            elif [ "$INPUT_MODE" = "report" ]; then
+              python bot.py --report
+            elif [ "$INPUT_MODE" = "optimize_params" ]; then
+              python bot.py --optimize
+            elif [ "$INPUT_MODE" = "optimize_stocks" ]; then
+              python bot.py --optimize-stocks
+            fi
+          elif [ "$CURRENT_HOUR_UTC" = "15" ] && [ "$CURRENT_MIN_UTC" -ge "10" ] && [ "$CURRENT_MIN_UTC" -le "25" ]; then
+            echo "🏁 Seans Kapanış Zamanı (18:15 TSI = 15:15 UTC) — Gün Sonu Backtest ve EOD Tablosu Çalıştırılıyor..."
+            python bot.py --all-stocks --eval
+          else
+            echo "📈 Seans İçi 15dk Canlı Tarama (10:00-18:00 TSI) Çalıştırılıyor..."
+            python bot.py --all-stocks --once
+          fi
+
+      - name: Durum Verilerini (data/) Otomatik Commit ve Push Et
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "ℹ️ data/ klasöründe değişiklik yok. Commit atlandı."
+          else
+            git commit -m "auto: update signals and performance logs [skip ci]"
+            git push
+            echo "✅ Güncel durum verileri (data/) repoya commit/push edildi."
+          fi

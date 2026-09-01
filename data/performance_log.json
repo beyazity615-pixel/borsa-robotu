@@ -1,0 +1,28 @@
+[
+    {
+        "date": "2026-09-02",
+        "symbol": "ENKAI",
+        "entry": 88.9,
+        "eod_close": 88.9,
+        "tp": 92.1,
+        "sl": 86.77,
+        "status": "EOD_CLOSE",
+        "net_return_pct": 0.0,
+        "rsi": 56.927754903468866,
+        "adx": 24.372524964159595,
+        "tv_rec": "BUY"
+    },
+    {
+        "date": "2026-09-02",
+        "symbol": "YKBNK",
+        "entry": 36.82,
+        "eod_close": 36.82,
+        "tp": 38.15,
+        "sl": 35.94,
+        "status": "EOD_CLOSE",
+        "net_return_pct": 0.0,
+        "rsi": 51.07433442313653,
+        "adx": 21.949006882106566,
+        "tv_rec": "BUY"
+    }
+]

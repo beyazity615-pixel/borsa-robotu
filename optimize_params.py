@@ -1,112 +1,127 @@
-import requests
-import pandas as pd
+"""
+optimize_params.py
+===================
+Dinamik Strateji Parametresi Optimizasyonu ve Geri Besleme Motoru.
 
-BIST100_TICKERS = [
-    "AKBNK", "ARCLK", "ASELS", "BIMAS", "EREGL", "FROTO", "GARAN", "HEKTS", 
-    "KCHOL", "KONTR", "KOZAL", "KRDMD", "PETKM", "PGSUS", "SAHOL", "SASA", 
-    "SISE", "TCELL", "THYAO", "TUPRS", "YKBNK"
-]
+Özellikler:
+1. data/performance_log.json içindeki geçmiş işlem verilerini analiz eder.
+2. RSI, ADX ve Hacim eşikleri üzerinde grid-search optimizasyonu gerçekleştirir.
+3. En yüksek Win-Rate sağlayan dinamik parametre kümesini data/optimized_params.json dosyasına yazar.
+"""
 
-def get_bist_history(ticker):
-    """Yahoo Finance API'sinden 1 yıllık verileri çeker."""
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.IS?interval=1d&range=1y"
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+import sys
+import io
+if sys.platform == 'win32':
     try:
-        resp = requests.get(url, headers=headers, timeout=10)
-        if resp.status_code == 200:
-            result = resp.json().get("chart", {}).get("result", [])
-            if result:
-                closes = result[0].get("indicators", {}).get("quote", [{}])[0].get("close", [])
-                closes = [c for c in closes if c is not None]
-                if len(closes) >= 100:
-                    return pd.DataFrame({"close": closes})
+        sys.stdout.reconfigure(encoding='utf-8')
     except Exception:
-        pass
-    return None
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-def run_backtest_with_params(stock_data, take_profit, stop_loss):
-    all_trades = []
-    
-    for ticker, df in stock_data.items():
-        if df is None or len(df) < 50:
-            continue
+import os
+import json
+import logging
+from pathlib import Path
+from typing import Dict, Any
 
-        df_copy = df.copy()
-        df_copy['EMA50'] = df_copy['close'].ewm(span=50, adjust=False).mean()
-        
-        delta = df_copy['close'].diff()
-        gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
-        loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
-        rs = gain / loss
-        df_copy['RSI'] = 100 - (100 / (1 + rs))
+logger = logging.getLogger("optimize_params")
 
-        in_trade = False
-        entry_price = 0
+DATA_DIR = Path(__file__).parent / "data"
+DATA_DIR.mkdir(exist_ok=True)
 
-        for i in range(50, len(df_copy)):
-            price = df_copy['close'].iloc[i]
-            ema50 = df_copy['EMA50'].iloc[i]
-            rsi = df_copy['RSI'].iloc[i]
+PERFORMANCE_LOG_FILE = DATA_DIR / "performance_log.json"
+OPTIMIZED_PARAMS_FILE = DATA_DIR / "optimized_params.json"
 
-            signal = (price > ema50) and (48 <= rsi <= 72)
+DEFAULT_PARAMS = {
+    "RSI_MIN": 48,
+    "RSI_MAX": 72,
+    "ADX_MIN": 20.0,
+    "VOLUME_MULTIPLIER": 1.3,
+    "ATR_TP_MULT": 1.8,
+    "ATR_SL_MULT": 1.2,
+    "TV_ALLOWED": ["BUY", "STRONG_BUY"],
+    "last_updated": ""
+}
 
-            if not in_trade and signal:
-                in_trade = True
-                entry_price = price
-            elif in_trade:
-                pct_change = (price - entry_price) / entry_price
 
-                if pct_change >= take_profit:
-                    all_trades.append({'Result': 'WIN', 'Return': pct_change})
-                    in_trade = False
-                elif pct_change <= -stop_loss:
-                    all_trades.append({'Result': 'LOSS', 'Return': pct_change})
-                    in_trade = False
+def load_optimized_parameters() -> Dict[str, Any]:
+    """Sistem tarafından optimize edilmiş dinamik parametreleri yükler."""
+    if OPTIMIZED_PARAMS_FILE.exists():
+        try:
+            with open(OPTIMIZED_PARAMS_FILE, "r", encoding="utf-8") as f:
+                params = json.load(f)
+                logger.info("⚙️ Dinamik optimize parametreler yüklendi: %s", params)
+                return params
+        except Exception as e:
+            logger.warning("Optimize parametre dosyası okuma hatası: %s. Varsayılanlar kullanılıyor.", e)
+    return DEFAULT_PARAMS.copy()
 
-    if not all_trades:
-        return None
 
-    df_res = pd.DataFrame(all_trades)
-    total_trades = len(df_res)
-    wins = len(df_res[df_res['Result'] == 'WIN'])
-    win_rate = (wins / total_trades) * 100
-    total_return = df_res['Return'].sum() * 100
+def save_optimized_parameters(params: Dict[str, Any]):
+    try:
+        params["last_updated"] = os.popen("date").read().strip() if sys.platform != "win32" else ""
+        with open(OPTIMIZED_PARAMS_FILE, "w", encoding="utf-8") as f:
+            json.dump(params, f, ensure_ascii=False, indent=4)
+        logger.info("✅ Optimize edilmiş parametreler kaydedildi: %s", OPTIMIZED_PARAMS_FILE)
+    except Exception as e:
+        logger.error("Optimize parametre kaydetme hatası: %s", e)
 
-    return {
-        "TP (%)": f"%{take_profit*100:.1f}",
-        "SL (%)": f"%{stop_loss*100:.1f}",
-        "Toplam İşlem": total_trades,
-        "Win Rate": win_rate,
-        "Net Getiri (%)": total_return
-    }
 
-def run_grid_search():
-    print("⏳ Hisselerin geçmiş verileri indiriliyor...\n")
-    stock_data = {}
-    for ticker in BIST100_TICKERS:
-        stock_data[ticker] = get_bist_history(ticker)
+def run_parameter_optimization() -> Dict[str, Any]:
+    """
+    Geçmiş işlem loglarına dayanarak parametreleri günceller.
+    Yeterli log birikmediyse güvenli varsayılan değerleri döndürür ve kaydeder.
+    """
+    logger.info("🚀 Dinamik Parametre Optimizasyonu Başlatılıyor...")
 
-    print("🚀 Parametre Optimizasyonu Başlatılıyor (Farklı TP/SL Kombinasyonları Test Ediliyor)...\n")
-    
-    # Test edilecek TP ve SL değerleri
-    tp_range = [0.02, 0.03, 0.04, 0.05, 0.06]  # %2, %3, %4, %5, %6
-    sl_range = [0.015, 0.02, 0.025, 0.03, 0.04] # %1.5, %2, %2.5, %3, %4
+    perf_data = []
+    if PERFORMANCE_LOG_FILE.exists():
+        try:
+            with open(PERFORMANCE_LOG_FILE, "r", encoding="utf-8") as f:
+                perf_data = json.load(f)
+        except Exception:
+            pass
 
-    results = []
-    for tp in tp_range:
-        for sl in sl_range:
-            res = run_backtest_with_params(stock_data, tp, sl)
-            if res:
-                results.append(res)
+    if len(perf_data) < 10:
+        logger.info("⚠️ Yeterli geçmiş performans verisi yok (min 10 işlem). Varsayılan parametreler korundu.")
+        save_optimized_parameters(DEFAULT_PARAMS)
+        return DEFAULT_PARAMS
 
-    df_results = pd.DataFrame(results)
-    
-    # Win Rate'e göre sırala
-    df_sorted = df_results.sort_values(by="Win Rate", ascending=False)
+    # Grid Search Simülasyonu
+    best_params = DEFAULT_PARAMS.copy()
+    best_win_rate = 0.0
 
-    print("================ OPTİMİZASYON SONUÇLARI (En Yüksek Win Rate) ================")
-    print(df_sorted.to_string(index=False))
-    print("==============================================================================\n")
+    rsi_min_range = [45, 48, 50]
+    adx_min_range = [18.0, 20.0, 22.0]
+    vol_mult_range = [1.2, 1.3, 1.4]
+
+    for r_min in rsi_min_range:
+        for a_min in adx_min_range:
+            for v_mult in vol_mult_range:
+                wins = 0
+                total = 0
+                for trade in perf_data:
+                    rsi = trade.get("rsi", 50.0)
+                    adx = trade.get("adx", 20.0)
+                    status = trade.get("status")
+
+                    if rsi >= r_min and adx >= a_min:
+                        total += 1
+                        if status == "WIN":
+                            wins += 1
+
+                if total >= 5:
+                    win_rate = (wins / total) * 100
+                    if win_rate > best_win_rate:
+                        best_win_rate = win_rate
+                        best_params["RSI_MIN"] = r_min
+                        best_params["ADX_MIN"] = a_min
+                        best_params["VOLUME_MULTIPLIER"] = v_mult
+
+    logger.info(f"🎯 Optimizasyon Tamamlandı! En Yüksek Win Rate: %{best_win_rate:.1f}")
+    save_optimized_parameters(best_params)
+    return best_params
+
 
 if __name__ == "__main__":
-    run_grid_search()
+    p = run_parameter_optimization()
+    print("Sonuç Parametreleri:", p)

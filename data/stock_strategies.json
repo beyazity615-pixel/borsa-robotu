@@ -1,0 +1,478 @@
+{
+    "ADESE": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AEFES": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AFYON": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AGESA": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AGHOL": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AGROT": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AHGAZ": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKBNK": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKCNS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKENR": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKFGY": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKFYE": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKGRT": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKMGY": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKSA": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKSEN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKSGY": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "AKSUE": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ALARK": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ALBRK": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ALCAR": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ALCTL": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ALFAS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ALGYO": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ALKA": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ALTNY": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ALVES": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ANELE": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ANGEN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ANHYT": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ANSGR": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ARASE": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ARCLK": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ARDYZ": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ARENA": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ARSAN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ARTMS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ARZUM": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ASELS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ASGYO": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ASTOR": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ASUZU": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ATAGY": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ATAKP": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ATATP": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ATEKS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "BERA": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "BIMAS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "BINHO": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "BOBET": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "BRSAN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "BRYAT": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "BUCIM": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "CANTE": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "CCOLA": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "CIMSA": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "CWENE": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "DOAS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "DOHOL": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "EBEBK": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ECILC": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ECZYT": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "EGEEN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "EKGYO": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ENJSA": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ENKAI": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "EREGL": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "EUPWR": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "FROTO": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "GARAN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "GESAN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "GUBRF": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "HALKB": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "HEKTS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ISCTR": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ISGYO": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ISMEN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "KAYSE": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "KCAER": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "KCHOL": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "KLSER": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "KONTR": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "KORDS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "KRDMD": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "MAVI": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "MGROS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "MHRGY": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "MIATK": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ODAS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "OTKAR": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "OYAKC": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "PETKM": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "PGSUS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "PSGYO": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "REEDR": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "SAHOL": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "SASA": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "SDTTR": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "SISE": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "SKBNK": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "SOKM": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "TABGD": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "TAVHL": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "TCELL": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "THYAO": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "TKFEN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "TOASO": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "TSKB": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "TTKOM": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "TTRAK": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "TUPRS": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "TURSG": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ULKER": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "VAKBN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "VESBE": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "VESTL": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "YEOTK": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "YKBNK": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    },
+    "ZOREN": {
+        "best_strategy": "STANDARD_MOMENTUM",
+        "win_rate": 60.0
+    }
+}

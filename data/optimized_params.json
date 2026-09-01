@@ -1,0 +1,13 @@
+{
+    "RSI_MIN": 48,
+    "RSI_MAX": 72,
+    "ADX_MIN": 20.0,
+    "VOLUME_MULTIPLIER": 1.3,
+    "ATR_TP_MULT": 1.8,
+    "ATR_SL_MULT": 1.2,
+    "TV_ALLOWED": [
+        "BUY",
+        "STRONG_BUY"
+    ],
+    "last_updated": ""
+}
