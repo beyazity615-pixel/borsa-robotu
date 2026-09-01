@@ -156,5 +156,47 @@
         "tv_rec": "BUY",
         "sector": "Bankacılık",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260901_222025",
+        "timestamp": "2026-09-01 22:20:25",
+        "date": "2026-09-01",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "BUCIM_20260901_222026",
+        "timestamp": "2026-09-01 22:20:26",
+        "date": "2026-09-01",
+        "symbol": "BUCIM",
+        "entry_price": 5.89,
+        "tp_price": 6.1,
+        "sl_price": 5.75,
+        "rsi": 62.592604323164274,
+        "adx": 42.01775309442139,
+        "tv_rec": "BUY",
+        "sector": "Çimento",
+        "status": "OPEN"
+    },
+    {
+        "id": "YKBNK_20260901_222026",
+        "timestamp": "2026-09-01 22:20:26",
+        "date": "2026-09-01",
+        "symbol": "YKBNK",
+        "entry_price": 36.82,
+        "tp_price": 38.15,
+        "sl_price": 35.94,
+        "rsi": 51.07433442313653,
+        "adx": 21.949006882106566,
+        "tv_rec": "BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
     }
 ]
