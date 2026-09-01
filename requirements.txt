@@ -1,0 +1,18 @@
+# --- Veri Katmanı (TradingView Canlı Veri) ---
+tradingview-ta>=3.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --- Zamanlama / Seans Yönetimi ---
+schedule>=1.2.0
+pytz>=2024.1
+holidays>=0.47
+
+# --- Grafik ---
+matplotlib>=3.8.0
+
+# --- Telegram Bildirim ---
+requests>=2.31.0
+
+# --- Ortam Değişkenleri ---
+python-dotenv>=1.0.0
