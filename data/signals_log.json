@@ -590,5 +590,61 @@
         "tv_rec": "BUY",
         "sector": "Elektronik",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260903_162852",
+        "timestamp": "2026-09-03 16:28:52",
+        "date": "2026-09-03",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "BOBET_20260903_162853",
+        "timestamp": "2026-09-03 16:28:53",
+        "date": "2026-09-03",
+        "symbol": "BOBET",
+        "entry_price": 22.16,
+        "tp_price": 22.96,
+        "sl_price": 21.63,
+        "rsi": 67.91410168395916,
+        "adx": 42.96705170451901,
+        "tv_rec": "BUY",
+        "sector": "Çimento",
+        "status": "OPEN"
+    },
+    {
+        "id": "ENJSA_20260903_162853",
+        "timestamp": "2026-09-03 16:28:53",
+        "date": "2026-09-03",
+        "symbol": "ENJSA",
+        "entry_price": 114.5,
+        "tp_price": 118.62,
+        "sl_price": 111.75,
+        "rsi": 63.244320562532984,
+        "adx": 26.72373635890691,
+        "tv_rec": "BUY",
+        "sector": "Enerji",
+        "status": "OPEN"
+    },
+    {
+        "id": "KCHOL_20260903_162854",
+        "timestamp": "2026-09-03 16:28:54",
+        "date": "2026-09-03",
+        "symbol": "KCHOL",
+        "entry_price": 216.4,
+        "tp_price": 224.19,
+        "sl_price": 211.21,
+        "rsi": 59.022347772358934,
+        "adx": 31.683059743766034,
+        "tv_rec": "BUY",
+        "sector": "Holding",
+        "status": "OPEN"
     }
 ]
