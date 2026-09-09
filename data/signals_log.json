@@ -1920,5 +1920,61 @@
         "tv_rec": "BUY",
         "sector": "Elektronik",
         "status": "OPEN"
+    },
+    {
+        "id": "AGHOL_20260909_183901",
+        "timestamp": "2026-09-09 18:39:01",
+        "date": "2026-09-09",
+        "symbol": "AGHOL",
+        "entry_price": 35.58,
+        "tp_price": 36.86,
+        "sl_price": 34.73,
+        "rsi": 66.35335900215668,
+        "adx": 24.16170558397395,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Holding",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260909_183901",
+        "timestamp": "2026-09-09 18:39:01",
+        "date": "2026-09-09",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "SOKM_20260909_183902",
+        "timestamp": "2026-09-09 18:39:02",
+        "date": "2026-09-09",
+        "symbol": "SOKM",
+        "entry_price": 60.4,
+        "tp_price": 62.57,
+        "sl_price": 58.95,
+        "rsi": 64.43654039179391,
+        "adx": 39.08717764282686,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Perakende",
+        "status": "OPEN"
+    },
+    {
+        "id": "VESTL_20260909_183903",
+        "timestamp": "2026-09-09 18:39:03",
+        "date": "2026-09-09",
+        "symbol": "VESTL",
+        "entry_price": 26.96,
+        "tp_price": 27.93,
+        "sl_price": 26.31,
+        "rsi": 56.14431613530244,
+        "adx": 35.87221837654197,
+        "tv_rec": "BUY",
+        "sector": "Elektronik",
+        "status": "OPEN"
     }
 ]
