@@ -2942,5 +2942,33 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Elektronik",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260915_171852",
+        "timestamp": "2026-09-15 17:18:52",
+        "date": "2026-09-15",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "TUPRS_20260915_171853",
+        "timestamp": "2026-09-15 17:18:53",
+        "date": "2026-09-15",
+        "symbol": "TUPRS",
+        "entry_price": 412.5,
+        "tp_price": 427.35,
+        "sl_price": 402.6,
+        "rsi": 53.85266569095613,
+        "adx": 25.07190955875407,
+        "tv_rec": "BUY",
+        "sector": "Enerji",
+        "status": "OPEN"
     }
 ]
