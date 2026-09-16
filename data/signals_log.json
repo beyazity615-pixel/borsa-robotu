@@ -3026,5 +3026,33 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Enerji",
         "status": "OPEN"
+    },
+    {
+        "id": "CANTE_20260916_171821",
+        "timestamp": "2026-09-16 17:18:21",
+        "date": "2026-09-16",
+        "symbol": "CANTE",
+        "entry_price": 1.35,
+        "tp_price": 1.4,
+        "sl_price": 1.32,
+        "rsi": 53.34037252676785,
+        "adx": 30.065637834898435,
+        "tv_rec": "BUY",
+        "sector": "Enerji",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260916_171822",
+        "timestamp": "2026-09-16 17:18:22",
+        "date": "2026-09-16",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
     }
 ]
