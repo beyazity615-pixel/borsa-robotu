@@ -4006,5 +4006,61 @@
         "tv_rec": "BUY",
         "sector": "Enerji",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260923_172956",
+        "timestamp": "2026-09-23 17:29:56",
+        "date": "2026-09-23",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "EBEBK_20260923_172957",
+        "timestamp": "2026-09-23 17:29:57",
+        "date": "2026-09-23",
+        "symbol": "EBEBK",
+        "entry_price": 82.7,
+        "tp_price": 85.68,
+        "sl_price": 80.72,
+        "rsi": 56.35404215088912,
+        "adx": 32.54882724214592,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Perakende",
+        "status": "OPEN"
+    },
+    {
+        "id": "TAVHL_20260923_172957",
+        "timestamp": "2026-09-23 17:29:57",
+        "date": "2026-09-23",
+        "symbol": "TAVHL",
+        "entry_price": 281.0,
+        "tp_price": 291.12,
+        "sl_price": 274.26,
+        "rsi": 54.49480938447218,
+        "adx": 29.409299809341523,
+        "tv_rec": "BUY",
+        "sector": "Ulaştırma",
+        "status": "OPEN"
+    },
+    {
+        "id": "TUPRS_20260923_172958",
+        "timestamp": "2026-09-23 17:29:58",
+        "date": "2026-09-23",
+        "symbol": "TUPRS",
+        "entry_price": 411.0,
+        "tp_price": 425.8,
+        "sl_price": 401.14,
+        "rsi": 54.70614722874458,
+        "adx": 29.29804519625686,
+        "tv_rec": "BUY",
+        "sector": "Enerji",
+        "status": "OPEN"
     }
 ]
