@@ -4118,5 +4118,19 @@
         "tv_rec": "BUY",
         "sector": "Enerji",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260924_123947",
+        "timestamp": "2026-09-24 12:39:47",
+        "date": "2026-09-24",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
     }
 ]
