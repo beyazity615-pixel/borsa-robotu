@@ -4258,5 +4258,47 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Otomotiv",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260925_191617",
+        "timestamp": "2026-09-25 19:16:17",
+        "date": "2026-09-25",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISDMR_20260925_191618",
+        "timestamp": "2026-09-25 19:16:18",
+        "date": "2026-09-25",
+        "symbol": "ISDMR",
+        "entry_price": 63.45,
+        "tp_price": 65.73,
+        "sl_price": 61.93,
+        "rsi": 51.76258800506507,
+        "adx": 21.496425004854824,
+        "tv_rec": "BUY",
+        "sector": "Demir-Çelik",
+        "status": "OPEN"
+    },
+    {
+        "id": "TOASO_20260925_191618",
+        "timestamp": "2026-09-25 19:16:18",
+        "date": "2026-09-25",
+        "symbol": "TOASO",
+        "entry_price": 290.0,
+        "tp_price": 300.44,
+        "sl_price": 283.04,
+        "rsi": 60.48612678477878,
+        "adx": 28.270398127063455,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Otomotiv",
+        "status": "OPEN"
     }
 ]
