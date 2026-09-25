@@ -4160,5 +4160,61 @@
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260925_124117",
+        "timestamp": "2026-09-25 12:41:17",
+        "date": "2026-09-25",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "BIMAS_20260925_124117",
+        "timestamp": "2026-09-25 12:41:17",
+        "date": "2026-09-25",
+        "symbol": "BIMAS",
+        "entry_price": 429.75,
+        "tp_price": 445.22,
+        "sl_price": 419.44,
+        "rsi": 59.95919666728888,
+        "adx": 21.497685212789204,
+        "tv_rec": "BUY",
+        "sector": "Perakende",
+        "status": "OPEN"
+    },
+    {
+        "id": "KRDMD_20260925_124118",
+        "timestamp": "2026-09-25 12:41:18",
+        "date": "2026-09-25",
+        "symbol": "KRDMD",
+        "entry_price": 47.12,
+        "tp_price": 48.82,
+        "sl_price": 45.99,
+        "rsi": 57.523513800497064,
+        "adx": 32.04779009724106,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Demir-Çelik",
+        "status": "OPEN"
+    },
+    {
+        "id": "TOASO_20260925_124118",
+        "timestamp": "2026-09-25 12:41:18",
+        "date": "2026-09-25",
+        "symbol": "TOASO",
+        "entry_price": 289.0,
+        "tp_price": 299.4,
+        "sl_price": 282.06,
+        "rsi": 60.76022297973166,
+        "adx": 27.073880625665005,
+        "tv_rec": "BUY",
+        "sector": "Otomotiv",
+        "status": "OPEN"
     }
 ]
