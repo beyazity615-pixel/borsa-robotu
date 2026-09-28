@@ -4910,5 +4910,61 @@
         "status": "LOSS",
         "eod_close_price": 278.5,
         "net_return_pct": -2.4
+    },
+    {
+        "id": "HALKB_20260928_211520",
+        "timestamp": "2026-09-28 21:15:20",
+        "date": "2026-09-28",
+        "symbol": "HALKB",
+        "entry_price": 45.12,
+        "tp_price": 46.74,
+        "sl_price": 44.04,
+        "rsi": 56.664659194034904,
+        "adx": 27.296040713599883,
+        "tv_rec": "BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260928_211520",
+        "timestamp": "2026-09-28 21:15:20",
+        "date": "2026-09-28",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "KRDMD_20260928_211521",
+        "timestamp": "2026-09-28 21:15:21",
+        "date": "2026-09-28",
+        "symbol": "KRDMD",
+        "entry_price": 47.16,
+        "tp_price": 48.86,
+        "sl_price": 46.03,
+        "rsi": 55.95026113836723,
+        "adx": 28.356981903889846,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Demir-Çelik",
+        "status": "OPEN"
+    },
+    {
+        "id": "LOGO_20260928_211522",
+        "timestamp": "2026-09-28 21:15:22",
+        "date": "2026-09-28",
+        "symbol": "LOGO",
+        "entry_price": 140.7,
+        "tp_price": 145.77,
+        "sl_price": 137.32,
+        "rsi": 56.010301676875805,
+        "adx": 23.470787030534442,
+        "tv_rec": "BUY",
+        "sector": "Teknoloji",
+        "status": "OPEN"
     }
 ]
