@@ -5022,5 +5022,33 @@
         "tv_rec": "BUY",
         "sector": "Teknoloji",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20260929_135522",
+        "timestamp": "2026-09-29 13:55:22",
+        "date": "2026-09-29",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "YKBNK_20260929_135522",
+        "timestamp": "2026-09-29 13:55:22",
+        "date": "2026-09-29",
+        "symbol": "YKBNK",
+        "entry_price": 36.02,
+        "tp_price": 37.32,
+        "sl_price": 35.16,
+        "rsi": 55.61865805354161,
+        "adx": 34.386814165978755,
+        "tv_rec": "BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
     }
 ]
