@@ -5120,5 +5120,61 @@
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261001_142154",
+        "timestamp": "2026-10-01 14:21:54",
+        "date": "2026-10-01",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "LOGO_20261001_142154",
+        "timestamp": "2026-10-01 14:21:54",
+        "date": "2026-10-01",
+        "symbol": "LOGO",
+        "entry_price": 145.6,
+        "tp_price": 150.84,
+        "sl_price": 142.11,
+        "rsi": 68.48989968391714,
+        "adx": 44.462587650125904,
+        "tv_rec": "BUY",
+        "sector": "Teknoloji",
+        "status": "OPEN"
+    },
+    {
+        "id": "TUPRS_20261001_142155",
+        "timestamp": "2026-10-01 14:21:55",
+        "date": "2026-10-01",
+        "symbol": "TUPRS",
+        "entry_price": 387.0,
+        "tp_price": 400.93,
+        "sl_price": 377.71,
+        "rsi": 62.37140166206783,
+        "adx": 32.46815100374714,
+        "tv_rec": "BUY",
+        "sector": "Enerji",
+        "status": "OPEN"
+    },
+    {
+        "id": "VAKBN_20261001_142155",
+        "timestamp": "2026-10-01 14:21:55",
+        "date": "2026-10-01",
+        "symbol": "VAKBN",
+        "entry_price": 33.9,
+        "tp_price": 35.12,
+        "sl_price": 33.09,
+        "rsi": 63.75583435208493,
+        "adx": 25.72576799161067,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
     }
 ]
