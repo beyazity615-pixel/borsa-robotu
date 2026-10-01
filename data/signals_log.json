@@ -5176,5 +5176,47 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Bankacılık",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261001_194519",
+        "timestamp": "2026-10-01 19:45:19",
+        "date": "2026-10-01",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "VAKBN_20261001_194520",
+        "timestamp": "2026-10-01 19:45:20",
+        "date": "2026-10-01",
+        "symbol": "VAKBN",
+        "entry_price": 33.92,
+        "tp_price": 35.14,
+        "sl_price": 33.11,
+        "rsi": 62.56995649057557,
+        "adx": 27.63274735114642,
+        "tv_rec": "BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
+    },
+    {
+        "id": "LOGO_20261001_194520",
+        "timestamp": "2026-10-01 19:45:20",
+        "date": "2026-10-01",
+        "symbol": "LOGO",
+        "entry_price": 146.1,
+        "tp_price": 151.36,
+        "sl_price": 142.59,
+        "rsi": 69.97335815316477,
+        "adx": 45.570398290271505,
+        "tv_rec": "BUY",
+        "sector": "Teknoloji",
+        "status": "OPEN"
     }
 ]
