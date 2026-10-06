@@ -5568,5 +5568,61 @@
         "tv_rec": "BUY",
         "sector": "Enerji",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261006_140405",
+        "timestamp": "2026-10-06 14:04:05",
+        "date": "2026-10-06",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "HALKB_20261006_140406",
+        "timestamp": "2026-10-06 14:04:06",
+        "date": "2026-10-06",
+        "symbol": "HALKB",
+        "entry_price": 45.0,
+        "tp_price": 46.62,
+        "sl_price": 43.92,
+        "rsi": 53.85485762444164,
+        "adx": 32.30380628120862,
+        "tv_rec": "BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISDMR_20261006_140406",
+        "timestamp": "2026-10-06 14:04:06",
+        "date": "2026-10-06",
+        "symbol": "ISDMR",
+        "entry_price": 62.2,
+        "tp_price": 64.44,
+        "sl_price": 60.71,
+        "rsi": 51.5283463644999,
+        "adx": 27.591541128847368,
+        "tv_rec": "BUY",
+        "sector": "Demir-Çelik",
+        "status": "OPEN"
+    },
+    {
+        "id": "LOGO_20261006_140407",
+        "timestamp": "2026-10-06 14:04:07",
+        "date": "2026-10-06",
+        "symbol": "LOGO",
+        "entry_price": 148.8,
+        "tp_price": 154.16,
+        "sl_price": 145.23,
+        "rsi": 54.8429728973513,
+        "adx": 27.25726481630576,
+        "tv_rec": "BUY",
+        "sector": "Teknoloji",
+        "status": "OPEN"
     }
 ]
