@@ -5680,5 +5680,61 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Otomotiv",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261006_202208",
+        "timestamp": "2026-10-06 20:22:08",
+        "date": "2026-10-06",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "YKBNK_20261006_202209",
+        "timestamp": "2026-10-06 20:22:09",
+        "date": "2026-10-06",
+        "symbol": "YKBNK",
+        "entry_price": 36.46,
+        "tp_price": 37.77,
+        "sl_price": 35.58,
+        "rsi": 62.93965321515929,
+        "adx": 38.400380927454776,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
+    },
+    {
+        "id": "LOGO_20261006_202209",
+        "timestamp": "2026-10-06 20:22:09",
+        "date": "2026-10-06",
+        "symbol": "LOGO",
+        "entry_price": 150.0,
+        "tp_price": 155.4,
+        "sl_price": 146.4,
+        "rsi": 60.81888142430915,
+        "adx": 26.288084551718683,
+        "tv_rec": "BUY",
+        "sector": "Teknoloji",
+        "status": "OPEN"
+    },
+    {
+        "id": "OTKAR_20261006_202210",
+        "timestamp": "2026-10-06 20:22:10",
+        "date": "2026-10-06",
+        "symbol": "OTKAR",
+        "entry_price": 341.25,
+        "tp_price": 353.54,
+        "sl_price": 333.06,
+        "rsi": 55.59253714094261,
+        "adx": 21.4598828381034,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Otomotiv",
+        "status": "OPEN"
     }
 ]
