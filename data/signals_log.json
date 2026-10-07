@@ -5736,5 +5736,61 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Otomotiv",
         "status": "OPEN"
+    },
+    {
+        "id": "CCOLA_20261007_142201",
+        "timestamp": "2026-10-07 14:22:01",
+        "date": "2026-10-07",
+        "symbol": "CCOLA",
+        "entry_price": 81.9,
+        "tp_price": 84.85,
+        "sl_price": 79.93,
+        "rsi": 64.16228516961294,
+        "adx": 50.10748789624863,
+        "tv_rec": "BUY",
+        "sector": "İçecek",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261007_142202",
+        "timestamp": "2026-10-07 14:22:02",
+        "date": "2026-10-07",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "TAVHL_20261007_142203",
+        "timestamp": "2026-10-07 14:22:03",
+        "date": "2026-10-07",
+        "symbol": "TAVHL",
+        "entry_price": 274.75,
+        "tp_price": 284.64,
+        "sl_price": 268.16,
+        "rsi": 57.013968982177076,
+        "adx": 31.02901522954972,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Ulaştırma",
+        "status": "OPEN"
+    },
+    {
+        "id": "YKBNK_20261007_142204",
+        "timestamp": "2026-10-07 14:22:04",
+        "date": "2026-10-07",
+        "symbol": "YKBNK",
+        "entry_price": 36.4,
+        "tp_price": 37.71,
+        "sl_price": 35.53,
+        "rsi": 54.9389579904551,
+        "adx": 26.210940456155374,
+        "tv_rec": "BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
     }
 ]
