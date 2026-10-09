@@ -6310,5 +6310,47 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Perakende",
         "status": "OPEN"
+    },
+    {
+        "id": "ALBRK_20261009_193939",
+        "timestamp": "2026-10-09 19:39:39",
+        "date": "2026-10-09",
+        "symbol": "ALBRK",
+        "entry_price": 8.9,
+        "tp_price": 9.22,
+        "sl_price": 8.69,
+        "rsi": 65.7147334427426,
+        "adx": 37.85000825296218,
+        "tv_rec": "BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261009_193940",
+        "timestamp": "2026-10-09 19:39:40",
+        "date": "2026-10-09",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "CCOLA_20261009_193940",
+        "timestamp": "2026-10-09 19:39:40",
+        "date": "2026-10-09",
+        "symbol": "CCOLA",
+        "entry_price": 83.75,
+        "tp_price": 86.77,
+        "sl_price": 81.74,
+        "rsi": 67.31244069992536,
+        "adx": 37.261038317568186,
+        "tv_rec": "STRONG_BUY",
+        "sector": "İçecek",
+        "status": "OPEN"
     }
 ]
