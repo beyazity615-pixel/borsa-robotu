@@ -6450,5 +6450,61 @@
         "tv_rec": "BUY",
         "sector": "Enerji",
         "status": "OPEN"
+    },
+    {
+        "id": "ALARK_20261012_223041",
+        "timestamp": "2026-10-12 22:30:41",
+        "date": "2026-10-12",
+        "symbol": "ALARK",
+        "entry_price": 110.1,
+        "tp_price": 114.06,
+        "sl_price": 107.46,
+        "rsi": 65.74162263320825,
+        "adx": 24.819815411929664,
+        "tv_rec": "BUY",
+        "sector": "Holding",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261012_223041",
+        "timestamp": "2026-10-12 22:30:41",
+        "date": "2026-10-12",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "KRDMD_20261012_223042",
+        "timestamp": "2026-10-12 22:30:42",
+        "date": "2026-10-12",
+        "symbol": "KRDMD",
+        "entry_price": 44.06,
+        "tp_price": 45.65,
+        "sl_price": 43.0,
+        "rsi": 65.00898187147416,
+        "adx": 30.02693639967258,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Demir-Çelik",
+        "status": "OPEN"
+    },
+    {
+        "id": "TUPRS_20261012_223042",
+        "timestamp": "2026-10-12 22:30:42",
+        "date": "2026-10-12",
+        "symbol": "TUPRS",
+        "entry_price": 384.75,
+        "tp_price": 398.6,
+        "sl_price": 375.52,
+        "rsi": 61.23672913659667,
+        "adx": 25.347345058939393,
+        "tv_rec": "BUY",
+        "sector": "Enerji",
+        "status": "OPEN"
     }
 ]
