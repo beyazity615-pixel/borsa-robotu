@@ -6716,5 +6716,47 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Holding",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261014_124740",
+        "timestamp": "2026-10-14 12:47:40",
+        "date": "2026-10-14",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "SOKM_20261014_124741",
+        "timestamp": "2026-10-14 12:47:41",
+        "date": "2026-10-14",
+        "symbol": "SOKM",
+        "entry_price": 59.05,
+        "tp_price": 61.18,
+        "sl_price": 57.63,
+        "rsi": 58.920886581911105,
+        "adx": 39.02336895924698,
+        "tv_rec": "BUY",
+        "sector": "Perakende",
+        "status": "OPEN"
+    },
+    {
+        "id": "TUPRS_20261014_124742",
+        "timestamp": "2026-10-14 12:47:42",
+        "date": "2026-10-14",
+        "symbol": "TUPRS",
+        "entry_price": 393.0,
+        "tp_price": 407.15,
+        "sl_price": 383.57,
+        "rsi": 59.41386187781709,
+        "adx": 28.183052885528447,
+        "tv_rec": "BUY",
+        "sector": "Enerji",
+        "status": "OPEN"
     }
 ]
