@@ -6800,5 +6800,33 @@
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261015_172343",
+        "timestamp": "2026-10-15 17:23:43",
+        "date": "2026-10-15",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "GARAN_20261015_172344",
+        "timestamp": "2026-10-15 17:23:44",
+        "date": "2026-10-15",
+        "symbol": "GARAN",
+        "entry_price": 133.9,
+        "tp_price": 138.72,
+        "sl_price": 130.69,
+        "rsi": 65.07309836188386,
+        "adx": 25.794169677504442,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
     }
 ]
