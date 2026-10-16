@@ -6898,5 +6898,33 @@
         "tv_rec": "BUY",
         "sector": "Perakende",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261016_184950",
+        "timestamp": "2026-10-16 18:49:50",
+        "date": "2026-10-16",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "SOKM_20261016_184951",
+        "timestamp": "2026-10-16 18:49:51",
+        "date": "2026-10-16",
+        "symbol": "SOKM",
+        "entry_price": 57.6,
+        "tp_price": 59.67,
+        "sl_price": 56.22,
+        "rsi": 52.13168545672233,
+        "adx": 27.570431510713295,
+        "tv_rec": "BUY",
+        "sector": "Perakende",
+        "status": "OPEN"
     }
 ]
