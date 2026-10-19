@@ -6926,5 +6926,47 @@
         "tv_rec": "BUY",
         "sector": "Perakende",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261019_143146",
+        "timestamp": "2026-10-19 14:31:46",
+        "date": "2026-10-19",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "SOKM_20261019_143146",
+        "timestamp": "2026-10-19 14:31:46",
+        "date": "2026-10-19",
+        "symbol": "SOKM",
+        "entry_price": 58.0,
+        "tp_price": 60.09,
+        "sl_price": 56.61,
+        "rsi": 54.1671988742769,
+        "adx": 38.648292441205626,
+        "tv_rec": "BUY",
+        "sector": "Perakende",
+        "status": "OPEN"
+    },
+    {
+        "id": "TAVHL_20261019_143147",
+        "timestamp": "2026-10-19 14:31:47",
+        "date": "2026-10-19",
+        "symbol": "TAVHL",
+        "entry_price": 275.25,
+        "tp_price": 285.16,
+        "sl_price": 268.64,
+        "rsi": 60.31807685890834,
+        "adx": 27.88297740113665,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Ulaştırma",
+        "status": "OPEN"
     }
 ]
