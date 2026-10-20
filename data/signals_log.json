@@ -7094,5 +7094,61 @@
         "tv_rec": "BUY",
         "sector": "Perakende",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261020_191842",
+        "timestamp": "2026-10-20 19:18:42",
+        "date": "2026-10-20",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "ENJSA_20261020_191842",
+        "timestamp": "2026-10-20 19:18:42",
+        "date": "2026-10-20",
+        "symbol": "ENJSA",
+        "entry_price": 116.6,
+        "tp_price": 120.8,
+        "sl_price": 113.8,
+        "rsi": 70.26445458919177,
+        "adx": 38.854958429744,
+        "tv_rec": "BUY",
+        "sector": "Enerji",
+        "status": "OPEN"
+    },
+    {
+        "id": "GARAN_20261020_191843",
+        "timestamp": "2026-10-20 19:18:43",
+        "date": "2026-10-20",
+        "symbol": "GARAN",
+        "entry_price": 134.6,
+        "tp_price": 139.45,
+        "sl_price": 131.37,
+        "rsi": 67.06947495316422,
+        "adx": 24.709527219199554,
+        "tv_rec": "BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
+    },
+    {
+        "id": "SOKM_20261020_191844",
+        "timestamp": "2026-10-20 19:18:44",
+        "date": "2026-10-20",
+        "symbol": "SOKM",
+        "entry_price": 58.05,
+        "tp_price": 60.14,
+        "sl_price": 56.66,
+        "rsi": 56.48340589575611,
+        "adx": 26.382421362022285,
+        "tv_rec": "BUY",
+        "sector": "Perakende",
+        "status": "OPEN"
     }
 ]
