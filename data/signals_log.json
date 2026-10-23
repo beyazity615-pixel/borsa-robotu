@@ -7248,5 +7248,33 @@
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261023_172923",
+        "timestamp": "2026-10-23 17:29:23",
+        "date": "2026-10-23",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "EBEBK_20261023_172923",
+        "timestamp": "2026-10-23 17:29:23",
+        "date": "2026-10-23",
+        "symbol": "EBEBK",
+        "entry_price": 81.0,
+        "tp_price": 83.92,
+        "sl_price": 79.06,
+        "rsi": 71.50053834311423,
+        "adx": 31.00184680278431,
+        "tv_rec": "BUY",
+        "sector": "Perakende",
+        "status": "OPEN"
     }
 ]
