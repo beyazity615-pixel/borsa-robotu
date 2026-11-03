@@ -7640,5 +7640,33 @@
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
         "status": "OPEN"
+    },
+    {
+        "id": "ENJSA_20261103_205321",
+        "timestamp": "2026-11-03 20:53:21",
+        "date": "2026-11-03",
+        "symbol": "ENJSA",
+        "entry_price": 113.9,
+        "tp_price": 118.0,
+        "sl_price": 111.17,
+        "rsi": 59.715202136503784,
+        "adx": 21.884567868363877,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Enerji",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261103_205322",
+        "timestamp": "2026-11-03 20:53:22",
+        "date": "2026-11-03",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
     }
 ]
