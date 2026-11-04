@@ -8094,5 +8094,33 @@
         "status": "EOD_CLOSE",
         "eod_close_price": 4950000.0,
         "net_return_pct": 0.0
+    },
+    {
+        "id": "ISATR_20261104_212052",
+        "timestamp": "2026-11-04 21:20:52",
+        "date": "2026-11-04",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "OTKAR_20261104_212053",
+        "timestamp": "2026-11-04 21:20:53",
+        "date": "2026-11-04",
+        "symbol": "OTKAR",
+        "entry_price": 316.0,
+        "tp_price": 327.38,
+        "sl_price": 308.42,
+        "rsi": 70.04183945282168,
+        "adx": 23.263127348672047,
+        "tv_rec": "BUY",
+        "sector": "Otomotiv",
+        "status": "OPEN"
     }
 ]
