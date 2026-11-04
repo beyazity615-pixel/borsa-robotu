@@ -4923,7 +4923,9 @@
         "adx": 27.296040713599883,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 40.64,
+        "net_return_pct": -2.39
     },
     {
         "id": "ISATR_20260928_211520",
@@ -4937,7 +4939,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "KRDMD_20260928_211521",
@@ -4951,7 +4955,9 @@
         "adx": 28.356981903889846,
         "tv_rec": "STRONG_BUY",
         "sector": "Demir-Çelik",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 40.78,
+        "net_return_pct": -2.4
     },
     {
         "id": "LOGO_20260928_211522",
@@ -4965,7 +4971,9 @@
         "adx": 23.470787030534442,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "HALKB_20260928_211635",
@@ -4979,7 +4987,9 @@
         "adx": 27.296040713599883,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 40.64,
+        "net_return_pct": -2.39
     },
     {
         "id": "ISATR_20260928_211636",
@@ -4993,7 +5003,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "KRDMD_20260928_211636",
@@ -5007,7 +5019,9 @@
         "adx": 28.356981903889846,
         "tv_rec": "STRONG_BUY",
         "sector": "Demir-Çelik",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 40.78,
+        "net_return_pct": -2.4
     },
     {
         "id": "LOGO_20260928_211637",
@@ -5021,7 +5035,9 @@
         "adx": 23.470787030534442,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20260929_135522",
@@ -5035,7 +5051,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "YKBNK_20260929_135522",
@@ -5049,7 +5067,9 @@
         "adx": 34.386814165978755,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 35.98,
+        "net_return_pct": -0.11
     },
     {
         "id": "ISATR_20260929_191442",
@@ -5063,7 +5083,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20260929_200025",
@@ -5077,7 +5099,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20260930_133139",
@@ -5091,7 +5115,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20260930_183559",
@@ -5105,7 +5131,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20260930_200321",
@@ -5119,7 +5147,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261001_142154",
@@ -5133,7 +5163,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "LOGO_20261001_142154",
@@ -5147,7 +5179,9 @@
         "adx": 44.462587650125904,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "TUPRS_20261001_142155",
@@ -5161,7 +5195,9 @@
         "adx": 32.46815100374714,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 342.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "VAKBN_20261001_142155",
@@ -5175,7 +5211,9 @@
         "adx": 25.72576799161067,
         "tv_rec": "STRONG_BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 31.56,
+        "net_return_pct": -2.39
     },
     {
         "id": "ISATR_20261001_194519",
@@ -5189,7 +5227,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "VAKBN_20261001_194520",
@@ -5203,7 +5243,9 @@
         "adx": 27.63274735114642,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 31.56,
+        "net_return_pct": -2.39
     },
     {
         "id": "LOGO_20261001_194520",
@@ -5217,7 +5259,9 @@
         "adx": 45.570398290271505,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261001_202201",
@@ -5231,7 +5275,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "VAKBN_20261001_202202",
@@ -5245,7 +5291,9 @@
         "adx": 27.63274735114642,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 31.56,
+        "net_return_pct": -2.39
     },
     {
         "id": "LOGO_20261001_202202",
@@ -5259,7 +5307,9 @@
         "adx": 45.570398290271505,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261002_134355",
@@ -5273,7 +5323,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "EBEBK_20261002_134355",
@@ -5287,7 +5339,9 @@
         "adx": 27.905350555363217,
         "tv_rec": "STRONG_BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 78.05,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261002_184410",
@@ -5301,7 +5355,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "EBEBK_20261002_184411",
@@ -5315,7 +5371,9 @@
         "adx": 29.838150177941948,
         "tv_rec": "STRONG_BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 78.05,
+        "net_return_pct": -2.4
     },
     {
         "id": "ENJSA_20261002_184411",
@@ -5329,7 +5387,9 @@
         "adx": 27.690728224320427,
         "tv_rec": "STRONG_BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 119.4,
+        "net_return_pct": 3.6
     },
     {
         "id": "ISDMR_20261002_184412",
@@ -5343,7 +5403,9 @@
         "adx": 20.085817995216033,
         "tv_rec": "BUY",
         "sector": "Demir-Çelik",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 52.55,
+        "net_return_pct": -2.4
     },
     {
         "id": "LOGO_20261002_184412",
@@ -5357,7 +5419,9 @@
         "adx": 48.009714201834925,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261002_195804",
@@ -5371,7 +5435,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "EBEBK_20261002_195805",
@@ -5385,7 +5451,9 @@
         "adx": 29.838150177941948,
         "tv_rec": "STRONG_BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 78.05,
+        "net_return_pct": -2.4
     },
     {
         "id": "ENJSA_20261002_195805",
@@ -5399,7 +5467,9 @@
         "adx": 27.690728224320427,
         "tv_rec": "STRONG_BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 119.4,
+        "net_return_pct": 3.6
     },
     {
         "id": "ISDMR_20261002_195806",
@@ -5413,7 +5483,9 @@
         "adx": 20.085817995216033,
         "tv_rec": "BUY",
         "sector": "Demir-Çelik",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 52.55,
+        "net_return_pct": -2.4
     },
     {
         "id": "LOGO_20261002_195806",
@@ -5427,7 +5499,9 @@
         "adx": 48.009714201834925,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "EKGYO_20261005_154716",
@@ -5441,7 +5515,9 @@
         "adx": 46.703675236551554,
         "tv_rec": "BUY",
         "sector": "Gayrimenkul",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 17.52,
+        "net_return_pct": -2.41
     },
     {
         "id": "ISATR_20261005_154717",
@@ -5455,7 +5531,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "KCHOL_20261005_154717",
@@ -5469,7 +5547,9 @@
         "adx": 29.57534378924943,
         "tv_rec": "BUY",
         "sector": "Holding",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 203.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "TAVHL_20261005_154718",
@@ -5483,7 +5563,9 @@
         "adx": 51.37056688506097,
         "tv_rec": "STRONG_BUY",
         "sector": "Ulaştırma",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 278.75,
+        "net_return_pct": 1.55
     },
     {
         "id": "TUPRS_20261005_154718",
@@ -5497,7 +5579,9 @@
         "adx": 23.407887283525945,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 342.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "EKGYO_20261005_220220",
@@ -5511,7 +5595,9 @@
         "adx": 46.703675236551554,
         "tv_rec": "BUY",
         "sector": "Gayrimenkul",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 17.52,
+        "net_return_pct": -2.41
     },
     {
         "id": "ISATR_20261005_220220",
@@ -5525,7 +5611,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "KCHOL_20261005_220221",
@@ -5539,7 +5627,9 @@
         "adx": 29.57534378924943,
         "tv_rec": "BUY",
         "sector": "Holding",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 203.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "TAVHL_20261005_220221",
@@ -5553,7 +5643,9 @@
         "adx": 51.37056688506097,
         "tv_rec": "STRONG_BUY",
         "sector": "Ulaştırma",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 278.75,
+        "net_return_pct": 1.55
     },
     {
         "id": "TUPRS_20261005_220221",
@@ -5567,7 +5659,9 @@
         "adx": 23.407887283525945,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 342.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261006_140405",
@@ -5581,7 +5675,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "HALKB_20261006_140406",
@@ -5595,7 +5691,9 @@
         "adx": 32.30380628120862,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 40.64,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISDMR_20261006_140406",
@@ -5609,7 +5707,9 @@
         "adx": 27.591541128847368,
         "tv_rec": "BUY",
         "sector": "Demir-Çelik",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 52.55,
+        "net_return_pct": -2.4
     },
     {
         "id": "LOGO_20261006_140407",
@@ -5623,7 +5723,9 @@
         "adx": 27.25726481630576,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261006_193423",
@@ -5637,7 +5739,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "YKBNK_20261006_193423",
@@ -5651,7 +5755,9 @@
         "adx": 38.400380927454776,
         "tv_rec": "STRONG_BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 35.98,
+        "net_return_pct": -1.32
     },
     {
         "id": "LOGO_20261006_193424",
@@ -5665,7 +5771,9 @@
         "adx": 26.288084551718683,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "OTKAR_20261006_193425",
@@ -5679,7 +5787,9 @@
         "adx": 21.4598828381034,
         "tv_rec": "STRONG_BUY",
         "sector": "Otomotiv",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 317.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261006_202208",
@@ -5693,7 +5803,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "YKBNK_20261006_202209",
@@ -5707,7 +5819,9 @@
         "adx": 38.400380927454776,
         "tv_rec": "STRONG_BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 35.98,
+        "net_return_pct": -1.32
     },
     {
         "id": "LOGO_20261006_202209",
@@ -5721,7 +5835,9 @@
         "adx": 26.288084551718683,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "OTKAR_20261006_202210",
@@ -5735,7 +5851,9 @@
         "adx": 21.4598828381034,
         "tv_rec": "STRONG_BUY",
         "sector": "Otomotiv",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 317.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "CCOLA_20261007_142201",
@@ -5749,7 +5867,9 @@
         "adx": 50.10748789624863,
         "tv_rec": "BUY",
         "sector": "İçecek",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 72.25,
+        "net_return_pct": -2.41
     },
     {
         "id": "ISATR_20261007_142202",
@@ -5763,7 +5883,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "TAVHL_20261007_142203",
@@ -5777,7 +5899,9 @@
         "adx": 31.02901522954972,
         "tv_rec": "STRONG_BUY",
         "sector": "Ulaştırma",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 278.75,
+        "net_return_pct": 1.46
     },
     {
         "id": "YKBNK_20261007_142204",
@@ -5791,7 +5915,9 @@
         "adx": 26.210940456155374,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 35.98,
+        "net_return_pct": -1.15
     },
     {
         "id": "CCOLA_20261007_200624",
@@ -5805,7 +5931,9 @@
         "adx": 52.42331185917616,
         "tv_rec": "BUY",
         "sector": "İçecek",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 72.25,
+        "net_return_pct": -2.4
     },
     {
         "id": "EKGYO_20261007_200624",
@@ -5819,7 +5947,9 @@
         "adx": 27.21534289220629,
         "tv_rec": "BUY",
         "sector": "Gayrimenkul",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 17.52,
+        "net_return_pct": -2.4
     },
     {
         "id": "ENJSA_20261007_200625",
@@ -5833,7 +5963,9 @@
         "adx": 24.860046106947856,
         "tv_rec": "STRONG_BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 119.4,
+        "net_return_pct": 3.6
     },
     {
         "id": "ISATR_20261007_200626",
@@ -5847,7 +5979,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "TAVHL_20261007_200626",
@@ -5861,7 +5995,9 @@
         "adx": 27.538855728759,
         "tv_rec": "BUY",
         "sector": "Ulaştırma",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 278.75,
+        "net_return_pct": 1.27
     },
     {
         "id": "VAKBN_20261007_200627",
@@ -5875,7 +6011,9 @@
         "adx": 22.096589757679713,
         "tv_rec": "STRONG_BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 31.56,
+        "net_return_pct": -2.4
     },
     {
         "id": "CCOLA_20261007_203852",
@@ -5889,7 +6027,9 @@
         "adx": 52.42331185917616,
         "tv_rec": "BUY",
         "sector": "İçecek",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 72.25,
+        "net_return_pct": -2.4
     },
     {
         "id": "EKGYO_20261007_203852",
@@ -5903,7 +6043,9 @@
         "adx": 27.21534289220629,
         "tv_rec": "BUY",
         "sector": "Gayrimenkul",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 17.52,
+        "net_return_pct": -2.4
     },
     {
         "id": "ENJSA_20261007_203853",
@@ -5917,7 +6059,9 @@
         "adx": 24.860046106947856,
         "tv_rec": "STRONG_BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 119.4,
+        "net_return_pct": 3.6
     },
     {
         "id": "ISATR_20261007_203854",
@@ -5931,7 +6075,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "TAVHL_20261007_203854",
@@ -5945,7 +6091,9 @@
         "adx": 27.538855728759,
         "tv_rec": "BUY",
         "sector": "Ulaştırma",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 278.75,
+        "net_return_pct": 1.27
     },
     {
         "id": "VAKBN_20261007_203855",
@@ -5959,7 +6107,9 @@
         "adx": 22.096589757679713,
         "tv_rec": "STRONG_BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 31.56,
+        "net_return_pct": -2.4
     },
     {
         "id": "AKCNS_20261008_142943",
@@ -5973,7 +6123,9 @@
         "adx": 41.48069542920734,
         "tv_rec": "BUY",
         "sector": "Çimento",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 188.7,
+        "net_return_pct": -2.4
     },
     {
         "id": "AYDEM_20261008_142944",
@@ -5987,7 +6139,9 @@
         "adx": 30.753012161801763,
         "tv_rec": "STRONG_BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 22.66,
+        "net_return_pct": -2.39
     },
     {
         "id": "ISATR_20261008_142945",
@@ -6001,7 +6155,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "KCHOL_20261008_142945",
@@ -6015,7 +6171,9 @@
         "adx": 26.27978231551419,
         "tv_rec": "BUY",
         "sector": "Holding",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 203.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "OTKAR_20261008_142946",
@@ -6029,7 +6187,9 @@
         "adx": 21.052291054865208,
         "tv_rec": "STRONG_BUY",
         "sector": "Otomotiv",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 317.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "YKBNK_20261008_142946",
@@ -6043,7 +6203,9 @@
         "adx": 23.39311154742069,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 35.98,
+        "net_return_pct": 0.5
     },
     {
         "id": "AKCNS_20261008_200456",
@@ -6057,7 +6219,9 @@
         "adx": 42.93317784818543,
         "tv_rec": "STRONG_BUY",
         "sector": "Çimento",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 188.7,
+        "net_return_pct": -2.4
     },
     {
         "id": "KCHOL_20261008_200457",
@@ -6071,7 +6235,9 @@
         "adx": 23.58191207305575,
         "tv_rec": "BUY",
         "sector": "Holding",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 203.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "TUPRS_20261008_200457",
@@ -6085,7 +6251,9 @@
         "adx": 42.94911734974094,
         "tv_rec": "STRONG_BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 342.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261008_200458",
@@ -6099,7 +6267,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "LOGO_20261008_200458",
@@ -6113,7 +6283,9 @@
         "adx": 20.871078898538013,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "OTKAR_20261008_200459",
@@ -6127,7 +6299,9 @@
         "adx": 22.381069605165088,
         "tv_rec": "STRONG_BUY",
         "sector": "Otomotiv",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 317.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "TAVHL_20261008_200459",
@@ -6141,7 +6315,9 @@
         "adx": 21.661993070525007,
         "tv_rec": "STRONG_BUY",
         "sector": "Ulaştırma",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 278.75,
+        "net_return_pct": 1.09
     },
     {
         "id": "AKCNS_20261008_204236",
@@ -6155,7 +6331,9 @@
         "adx": 42.93317784818543,
         "tv_rec": "STRONG_BUY",
         "sector": "Çimento",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 188.7,
+        "net_return_pct": -2.4
     },
     {
         "id": "KCHOL_20261008_204236",
@@ -6169,7 +6347,9 @@
         "adx": 23.58191207305575,
         "tv_rec": "BUY",
         "sector": "Holding",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 203.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "TUPRS_20261008_204237",
@@ -6183,7 +6363,9 @@
         "adx": 42.94911734974094,
         "tv_rec": "STRONG_BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 342.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261008_204237",
@@ -6197,7 +6379,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "LOGO_20261008_204237",
@@ -6211,7 +6395,9 @@
         "adx": 20.871078898538013,
         "tv_rec": "BUY",
         "sector": "Teknoloji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 122.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "OTKAR_20261008_204238",
@@ -6225,7 +6411,9 @@
         "adx": 22.381069605165088,
         "tv_rec": "STRONG_BUY",
         "sector": "Otomotiv",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 317.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "TAVHL_20261008_204238",
@@ -6239,7 +6427,9 @@
         "adx": 21.661993070525007,
         "tv_rec": "STRONG_BUY",
         "sector": "Ulaştırma",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 278.75,
+        "net_return_pct": 1.09
     },
     {
         "id": "ALBRK_20261009_141645",
@@ -6253,7 +6443,9 @@
         "adx": 32.2911562056032,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 8.49,
+        "net_return_pct": -2.39
     },
     {
         "id": "CCOLA_20261009_141646",
@@ -6267,7 +6459,9 @@
         "adx": 39.437218571803704,
         "tv_rec": "BUY",
         "sector": "İçecek",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 72.25,
+        "net_return_pct": -2.4
     },
     {
         "id": "EKGYO_20261009_141647",
@@ -6281,7 +6475,9 @@
         "adx": 23.333104115419186,
         "tv_rec": "BUY",
         "sector": "Gayrimenkul",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 17.52,
+        "net_return_pct": -2.42
     },
     {
         "id": "ISATR_20261009_141647",
@@ -6295,7 +6491,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "SOKM_20261009_141648",
@@ -6309,7 +6507,9 @@
         "adx": 34.28575261133601,
         "tv_rec": "STRONG_BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 54.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "ALBRK_20261009_193939",
@@ -6323,7 +6523,9 @@
         "adx": 37.85000825296218,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 8.49,
+        "net_return_pct": -2.36
     },
     {
         "id": "ISATR_20261009_193940",
@@ -6337,7 +6539,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "CCOLA_20261009_193940",
@@ -6351,7 +6555,9 @@
         "adx": 37.261038317568186,
         "tv_rec": "STRONG_BUY",
         "sector": "İçecek",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 72.25,
+        "net_return_pct": -2.4
     },
     {
         "id": "ALBRK_20261009_200743",
@@ -6365,7 +6571,9 @@
         "adx": 37.85000825296218,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 8.49,
+        "net_return_pct": -2.36
     },
     {
         "id": "ISATR_20261009_200744",
@@ -6379,7 +6587,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "CCOLA_20261009_200744",
@@ -6393,7 +6603,9 @@
         "adx": 37.261038317568186,
         "tv_rec": "STRONG_BUY",
         "sector": "İçecek",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 72.25,
+        "net_return_pct": -2.4
     },
     {
         "id": "ALARK_20261012_163837",
@@ -6407,7 +6619,9 @@
         "adx": 24.819815411929664,
         "tv_rec": "BUY",
         "sector": "Holding",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 99.7,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261012_163838",
@@ -6421,7 +6635,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "KRDMD_20261012_163838",
@@ -6435,7 +6651,9 @@
         "adx": 30.02693639967258,
         "tv_rec": "STRONG_BUY",
         "sector": "Demir-Çelik",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 40.78,
+        "net_return_pct": -2.41
     },
     {
         "id": "TUPRS_20261012_163839",
@@ -6449,7 +6667,9 @@
         "adx": 25.347345058939393,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 342.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ALARK_20261012_223041",
@@ -6463,7 +6683,9 @@
         "adx": 24.819815411929664,
         "tv_rec": "BUY",
         "sector": "Holding",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 99.7,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261012_223041",
@@ -6477,7 +6699,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "KRDMD_20261012_223042",
@@ -6491,7 +6715,9 @@
         "adx": 30.02693639967258,
         "tv_rec": "STRONG_BUY",
         "sector": "Demir-Çelik",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 40.78,
+        "net_return_pct": -2.41
     },
     {
         "id": "TUPRS_20261012_223042",
@@ -6505,7 +6731,9 @@
         "adx": 25.347345058939393,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 342.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "BIMAS_20261013_145522",
@@ -6519,7 +6747,9 @@
         "adx": 43.92004970766399,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 372.25,
+        "net_return_pct": -2.4
     },
     {
         "id": "ENJSA_20261013_145523",
@@ -6533,7 +6763,9 @@
         "adx": 31.793578717173993,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 119.4,
+        "net_return_pct": 3.6
     },
     {
         "id": "ISATR_20261013_145523",
@@ -6547,7 +6779,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "GARAN_20261013_145524",
@@ -6561,7 +6795,9 @@
         "adx": 25.25756041298795,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 138.0,
+        "net_return_pct": 3.6
     },
     {
         "id": "KCHOL_20261013_145524",
@@ -6575,7 +6811,9 @@
         "adx": 36.2061628621602,
         "tv_rec": "BUY",
         "sector": "Holding",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 203.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "BIMAS_20261013_203459",
@@ -6589,7 +6827,9 @@
         "adx": 44.779552764520645,
         "tv_rec": "STRONG_BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 372.25,
+        "net_return_pct": -2.4
     },
     {
         "id": "ENJSA_20261013_203459",
@@ -6603,7 +6843,9 @@
         "adx": 33.45847104257814,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 119.4,
+        "net_return_pct": 3.6
     },
     {
         "id": "ISATR_20261013_203500",
@@ -6617,7 +6859,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISCTR_20261013_203500",
@@ -6631,7 +6875,9 @@
         "adx": 42.8982214782582,
         "tv_rec": "STRONG_BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 12.92,
+        "net_return_pct": -1.0
     },
     {
         "id": "KCHOL_20261013_203501",
@@ -6645,7 +6891,9 @@
         "adx": 35.6821821438126,
         "tv_rec": "STRONG_BUY",
         "sector": "Holding",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 203.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "BIMAS_20261013_204213",
@@ -6659,7 +6907,9 @@
         "adx": 44.779552764520645,
         "tv_rec": "STRONG_BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 372.25,
+        "net_return_pct": -2.4
     },
     {
         "id": "ENJSA_20261013_204214",
@@ -6673,7 +6923,9 @@
         "adx": 33.45847104257814,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 119.4,
+        "net_return_pct": 3.6
     },
     {
         "id": "ISATR_20261013_204214",
@@ -6687,7 +6939,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISCTR_20261013_204215",
@@ -6701,7 +6955,9 @@
         "adx": 42.8982214782582,
         "tv_rec": "STRONG_BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 12.92,
+        "net_return_pct": -1.0
     },
     {
         "id": "KCHOL_20261013_204215",
@@ -6715,7 +6971,9 @@
         "adx": 35.6821821438126,
         "tv_rec": "STRONG_BUY",
         "sector": "Holding",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 203.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261014_124740",
@@ -6729,7 +6987,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "SOKM_20261014_124741",
@@ -6743,7 +7003,9 @@
         "adx": 39.02336895924698,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 54.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "TUPRS_20261014_124742",
@@ -6757,7 +7019,9 @@
         "adx": 28.183052885528447,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 342.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261014_175449",
@@ -6771,7 +7035,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261014_192617",
@@ -6785,7 +7051,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261015_123404",
@@ -6799,7 +7067,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261015_172343",
@@ -6813,7 +7083,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "GARAN_20261015_172344",
@@ -6827,7 +7099,9 @@
         "adx": 25.794169677504442,
         "tv_rec": "STRONG_BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 138.0,
+        "net_return_pct": 3.06
     },
     {
         "id": "ISATR_20261015_191033",
@@ -6841,7 +7115,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "GARAN_20261015_191034",
@@ -6855,7 +7131,9 @@
         "adx": 25.794169677504442,
         "tv_rec": "STRONG_BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 138.0,
+        "net_return_pct": 3.06
     },
     {
         "id": "ISATR_20261016_121348",
@@ -6869,7 +7147,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261016_164632",
@@ -6883,7 +7163,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "SOKM_20261016_164632",
@@ -6897,7 +7179,9 @@
         "adx": 27.570431510713295,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 54.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261016_184950",
@@ -6911,7 +7195,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "SOKM_20261016_184951",
@@ -6925,7 +7211,9 @@
         "adx": 27.570431510713295,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 54.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261019_143146",
@@ -6939,7 +7227,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "SOKM_20261019_143146",
@@ -6953,7 +7243,9 @@
         "adx": 38.648292441205626,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 54.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "TAVHL_20261019_143147",
@@ -6967,7 +7259,9 @@
         "adx": 27.88297740113665,
         "tv_rec": "STRONG_BUY",
         "sector": "Ulaştırma",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 278.75,
+        "net_return_pct": 1.27
     },
     {
         "id": "ISATR_20261019_201435",
@@ -6981,7 +7275,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "SOKM_20261019_201436",
@@ -6995,7 +7291,9 @@
         "adx": 37.62269031137547,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 54.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261019_203630",
@@ -7009,7 +7307,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "SOKM_20261019_203630",
@@ -7023,7 +7323,9 @@
         "adx": 37.62269031137547,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 54.2,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261020_123840",
@@ -7037,7 +7339,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261020_173412",
@@ -7051,7 +7355,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ENJSA_20261020_173413",
@@ -7065,7 +7371,9 @@
         "adx": 38.854958429744,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 119.4,
+        "net_return_pct": 2.4
     },
     {
         "id": "GARAN_20261020_173413",
@@ -7079,7 +7387,9 @@
         "adx": 24.709527219199554,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 138.0,
+        "net_return_pct": 2.53
     },
     {
         "id": "SOKM_20261020_173414",
@@ -7093,7 +7403,9 @@
         "adx": 26.382421362022285,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 54.2,
+        "net_return_pct": -2.39
     },
     {
         "id": "ISATR_20261020_191842",
@@ -7107,7 +7419,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ENJSA_20261020_191842",
@@ -7121,7 +7435,9 @@
         "adx": 38.854958429744,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 119.4,
+        "net_return_pct": 2.4
     },
     {
         "id": "GARAN_20261020_191843",
@@ -7135,7 +7451,9 @@
         "adx": 24.709527219199554,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 138.0,
+        "net_return_pct": 2.53
     },
     {
         "id": "SOKM_20261020_191844",
@@ -7149,7 +7467,9 @@
         "adx": 26.382421362022285,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 54.2,
+        "net_return_pct": -2.39
     },
     {
         "id": "ISATR_20261021_125029",
@@ -7163,7 +7483,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261021_175829",
@@ -7177,7 +7499,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261021_191859",
@@ -7191,7 +7515,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261022_125331",
@@ -7205,7 +7531,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261022_175436",
@@ -7219,7 +7547,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261022_191419",
@@ -7233,7 +7563,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261023_123148",
@@ -7247,7 +7579,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261023_172923",
@@ -7261,7 +7595,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "EBEBK_20261023_172923",
@@ -7275,7 +7611,9 @@
         "adx": 31.00184680278431,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 78.05,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261023_191542",
@@ -7289,7 +7627,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "EBEBK_20261023_191543",
@@ -7303,7 +7643,9 @@
         "adx": 31.00184680278431,
         "tv_rec": "BUY",
         "sector": "Perakende",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 78.05,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261026_140410",
@@ -7317,7 +7659,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261026_195825",
@@ -7331,7 +7675,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "YKBNK_20261026_195826",
@@ -7345,7 +7691,9 @@
         "adx": 30.535031138727675,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 35.98,
+        "net_return_pct": 0.39
     },
     {
         "id": "ISATR_20261026_203022",
@@ -7359,7 +7707,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "YKBNK_20261026_203023",
@@ -7373,7 +7723,9 @@
         "adx": 30.535031138727675,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 35.98,
+        "net_return_pct": 0.39
     },
     {
         "id": "HALKB_20261027_130559",
@@ -7387,7 +7739,9 @@
         "adx": 23.94488895617569,
         "tv_rec": "BUY",
         "sector": "Bankacılık",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 40.64,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261027_130559",
@@ -7401,7 +7755,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "AKSA_20261027_184318",
@@ -7415,7 +7771,9 @@
         "adx": 36.76702103379278,
         "tv_rec": "BUY",
         "sector": "Kimya",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 10.44,
+        "net_return_pct": -2.42
     },
     {
         "id": "ISATR_20261027_184318",
@@ -7429,7 +7787,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "AKSA_20261027_200639",
@@ -7443,7 +7803,9 @@
         "adx": 36.76702103379278,
         "tv_rec": "BUY",
         "sector": "Kimya",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 10.44,
+        "net_return_pct": -2.42
     },
     {
         "id": "ISATR_20261027_200639",
@@ -7457,7 +7819,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261028_135549",
@@ -7471,7 +7835,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261028_192543",
@@ -7485,7 +7851,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261028_201655",
@@ -7499,7 +7867,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261029_140205",
@@ -7513,7 +7883,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261029_194028",
@@ -7527,7 +7899,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261029_201959",
@@ -7541,7 +7915,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261030_135639",
@@ -7555,7 +7931,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261030_190840",
@@ -7569,7 +7947,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261030_195640",
@@ -7583,7 +7963,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261102_165703",
@@ -7597,7 +7979,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ISATR_20261102_230728",
@@ -7611,7 +7995,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ENJSA_20261103_145642",
@@ -7625,7 +8011,9 @@
         "adx": 20.72248838261033,
         "tv_rec": "BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 119.4,
+        "net_return_pct": 3.6
     },
     {
         "id": "ISATR_20261103_145643",
@@ -7639,7 +8027,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ENJSA_20261103_205321",
@@ -7653,7 +8043,9 @@
         "adx": 21.884567868363877,
         "tv_rec": "STRONG_BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 119.4,
+        "net_return_pct": 3.6
     },
     {
         "id": "ISATR_20261103_205322",
@@ -7667,7 +8059,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "ENJSA_20261103_210200",
@@ -7681,7 +8075,9 @@
         "adx": 21.884567868363877,
         "tv_rec": "STRONG_BUY",
         "sector": "Enerji",
-        "status": "OPEN"
+        "status": "WIN",
+        "eod_close_price": 119.4,
+        "net_return_pct": 3.6
     },
     {
         "id": "ISATR_20261103_210200",
@@ -7695,6 +8091,8 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     }
 ]
