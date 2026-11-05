@@ -8158,5 +8158,47 @@
         "status": "LOSS",
         "eod_close_price": 307.0,
         "net_return_pct": -2.4
+    },
+    {
+        "id": "AFYON_20261105_212848",
+        "timestamp": "2026-11-05 21:28:48",
+        "date": "2026-11-05",
+        "symbol": "AFYON",
+        "entry_price": 12.26,
+        "tp_price": 12.7,
+        "sl_price": 11.97,
+        "rsi": 66.4622966971013,
+        "adx": 47.30258299714713,
+        "tv_rec": "BUY",
+        "sector": "Çimento",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261105_212848",
+        "timestamp": "2026-11-05 21:28:48",
+        "date": "2026-11-05",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "TSKB_20261105_212849",
+        "timestamp": "2026-11-05 21:28:49",
+        "date": "2026-11-05",
+        "symbol": "TSKB",
+        "entry_price": 10.24,
+        "tp_price": 10.61,
+        "sl_price": 9.99,
+        "rsi": 68.03989628300855,
+        "adx": 58.73120246093861,
+        "tv_rec": "BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
     }
 ]
