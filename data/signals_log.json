@@ -8107,7 +8107,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "OTKAR_20261104_212053",
@@ -8121,7 +8123,9 @@
         "adx": 23.263127348672047,
         "tv_rec": "BUY",
         "sector": "Otomotiv",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 307.0,
+        "net_return_pct": -2.4
     },
     {
         "id": "ISATR_20261104_212736",
@@ -8135,7 +8139,9 @@
         "adx": 76.12037122513168,
         "tv_rec": "BUY",
         "sector": "Genel Sanayi / Finans",
-        "status": "OPEN"
+        "status": "EOD_CLOSE",
+        "eod_close_price": 4950000.0,
+        "net_return_pct": 0.0
     },
     {
         "id": "OTKAR_20261104_212737",
@@ -8149,6 +8155,8 @@
         "adx": 23.263127348672047,
         "tv_rec": "BUY",
         "sector": "Otomotiv",
-        "status": "OPEN"
+        "status": "LOSS",
+        "eod_close_price": 307.0,
+        "net_return_pct": -2.4
     }
 ]

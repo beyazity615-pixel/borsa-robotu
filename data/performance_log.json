@@ -6576,5 +6576,57 @@
         "rsi": 71.79092369952785,
         "adx": 76.12037122513168,
         "tv_rec": "BUY"
+    },
+    {
+        "date": "2026-11-04",
+        "symbol": "ISATR",
+        "entry": 4950000.0,
+        "eod_close": 4950000.0,
+        "tp": 5128200.0,
+        "sl": 4831200.0,
+        "status": "EOD_CLOSE",
+        "net_return_pct": 0.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY"
+    },
+    {
+        "date": "2026-11-04",
+        "symbol": "OTKAR",
+        "entry": 316.0,
+        "eod_close": 307.0,
+        "tp": 327.38,
+        "sl": 308.42,
+        "status": "LOSS",
+        "net_return_pct": -2.4,
+        "rsi": 70.04183945282168,
+        "adx": 23.263127348672047,
+        "tv_rec": "BUY"
+    },
+    {
+        "date": "2026-11-04",
+        "symbol": "ISATR",
+        "entry": 4950000.0,
+        "eod_close": 4950000.0,
+        "tp": 5128200.0,
+        "sl": 4831200.0,
+        "status": "EOD_CLOSE",
+        "net_return_pct": 0.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY"
+    },
+    {
+        "date": "2026-11-04",
+        "symbol": "OTKAR",
+        "entry": 316.0,
+        "eod_close": 307.0,
+        "tp": 327.38,
+        "sl": 308.42,
+        "status": "LOSS",
+        "net_return_pct": -2.4,
+        "rsi": 70.04183945282168,
+        "adx": 23.263127348672047,
+        "tv_rec": "BUY"
     }
 ]
