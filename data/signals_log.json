@@ -8242,5 +8242,61 @@
         "tv_rec": "BUY",
         "sector": "Bankacılık",
         "status": "OPEN"
+    },
+    {
+        "id": "GARAN_20261106_145441",
+        "timestamp": "2026-11-06 14:54:41",
+        "date": "2026-11-06",
+        "symbol": "GARAN",
+        "entry_price": 144.5,
+        "tp_price": 149.7,
+        "sl_price": 141.03,
+        "rsi": 66.51345082897295,
+        "adx": 41.49678039229401,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261106_145442",
+        "timestamp": "2026-11-06 14:54:42",
+        "date": "2026-11-06",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "ENJSA_20261106_145442",
+        "timestamp": "2026-11-06 14:54:42",
+        "date": "2026-11-06",
+        "symbol": "ENJSA",
+        "entry_price": 121.4,
+        "tp_price": 125.77,
+        "sl_price": 118.49,
+        "rsi": 64.81519709817844,
+        "adx": 22.317858077482892,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Enerji",
+        "status": "OPEN"
+    },
+    {
+        "id": "FROTO_20261106_145443",
+        "timestamp": "2026-11-06 14:54:43",
+        "date": "2026-11-06",
+        "symbol": "FROTO",
+        "entry_price": 73.3,
+        "tp_price": 75.94,
+        "sl_price": 71.54,
+        "rsi": 64.59002070104015,
+        "adx": 46.60283774087058,
+        "tv_rec": "BUY",
+        "sector": "Otomotiv",
+        "status": "OPEN"
     }
 ]
