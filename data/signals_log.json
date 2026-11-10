@@ -8620,5 +8620,47 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Otomotiv",
         "status": "OPEN"
+    },
+    {
+        "id": "ALARK_20261110_211908",
+        "timestamp": "2026-11-10 21:19:08",
+        "date": "2026-11-10",
+        "symbol": "ALARK",
+        "entry_price": 104.7,
+        "tp_price": 108.47,
+        "sl_price": 102.19,
+        "rsi": 62.53562960941193,
+        "adx": 41.44860406712622,
+        "tv_rec": "BUY",
+        "sector": "Holding",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261110_211909",
+        "timestamp": "2026-11-10 21:19:09",
+        "date": "2026-11-10",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "FROTO_20261110_211909",
+        "timestamp": "2026-11-10 21:19:09",
+        "date": "2026-11-10",
+        "symbol": "FROTO",
+        "entry_price": 75.9,
+        "tp_price": 78.63,
+        "sl_price": 74.08,
+        "rsi": 62.71018581339869,
+        "adx": 25.352112714856162,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Otomotiv",
+        "status": "OPEN"
     }
 ]
