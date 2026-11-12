@@ -8746,5 +8746,19 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Otomotiv",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261112_155326",
+        "timestamp": "2026-11-12 15:53:26",
+        "date": "2026-11-12",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
     }
 ]
