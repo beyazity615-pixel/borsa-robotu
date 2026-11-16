@@ -9002,5 +9002,47 @@
         "tv_rec": "BUY",
         "sector": "Savunma/Teknoloji",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261116_165351",
+        "timestamp": "2026-11-16 16:53:51",
+        "date": "2026-11-16",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "KONTR_20261116_165351",
+        "timestamp": "2026-11-16 16:53:51",
+        "date": "2026-11-16",
+        "symbol": "KONTR",
+        "entry_price": 2.59,
+        "tp_price": 2.68,
+        "sl_price": 2.53,
+        "rsi": 65.99620905104817,
+        "adx": 32.33025663920567,
+        "tv_rec": "BUY",
+        "sector": "Teknoloji",
+        "status": "OPEN"
+    },
+    {
+        "id": "PGSUS_20261116_165351",
+        "timestamp": "2026-11-16 16:53:51",
+        "date": "2026-11-16",
+        "symbol": "PGSUS",
+        "entry_price": 157.5,
+        "tp_price": 163.17,
+        "sl_price": 153.72,
+        "rsi": 58.18180036195228,
+        "adx": 24.830695839441844,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Ulaştırma",
+        "status": "OPEN"
     }
 ]
