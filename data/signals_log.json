@@ -9170,5 +9170,33 @@
         "tv_rec": "BUY",
         "sector": "Teknoloji",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261118_223644",
+        "timestamp": "2026-11-18 22:36:44",
+        "date": "2026-11-18",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "KONTR_20261118_223644",
+        "timestamp": "2026-11-18 22:36:44",
+        "date": "2026-11-18",
+        "symbol": "KONTR",
+        "entry_price": 2.75,
+        "tp_price": 2.85,
+        "sl_price": 2.68,
+        "rsi": 66.82451844143172,
+        "adx": 34.15881512622116,
+        "tv_rec": "BUY",
+        "sector": "Teknoloji",
+        "status": "OPEN"
     }
 ]
