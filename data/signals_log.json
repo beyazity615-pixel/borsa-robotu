@@ -9226,5 +9226,33 @@
         "tv_rec": "STRONG_BUY",
         "sector": "Ulaştırma",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261119_224029",
+        "timestamp": "2026-11-19 22:40:29",
+        "date": "2026-11-19",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "THYAO_20261119_224030",
+        "timestamp": "2026-11-19 22:40:30",
+        "date": "2026-11-19",
+        "symbol": "THYAO",
+        "entry_price": 328.25,
+        "tp_price": 340.07,
+        "sl_price": 320.37,
+        "rsi": 55.63905792324301,
+        "adx": 25.881736195099403,
+        "tv_rec": "STRONG_BUY",
+        "sector": "Ulaştırma",
+        "status": "OPEN"
     }
 ]
