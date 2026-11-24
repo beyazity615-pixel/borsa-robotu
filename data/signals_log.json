@@ -9436,5 +9436,47 @@
         "tv_rec": "BUY",
         "sector": "Ulaştırma",
         "status": "OPEN"
+    },
+    {
+        "id": "AKSA_20261124_235457",
+        "timestamp": "2026-11-24 23:54:57",
+        "date": "2026-11-24",
+        "symbol": "AKSA",
+        "entry_price": 11.1,
+        "tp_price": 11.5,
+        "sl_price": 10.83,
+        "rsi": 60.735219737940426,
+        "adx": 47.8976514156614,
+        "tv_rec": "BUY",
+        "sector": "Kimya",
+        "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261124_235457",
+        "timestamp": "2026-11-24 23:54:57",
+        "date": "2026-11-24",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "PGSUS_20261124_235458",
+        "timestamp": "2026-11-24 23:54:58",
+        "date": "2026-11-24",
+        "symbol": "PGSUS",
+        "entry_price": 154.2,
+        "tp_price": 159.75,
+        "sl_price": 150.5,
+        "rsi": 57.0018735605966,
+        "adx": 20.616374757072645,
+        "tv_rec": "BUY",
+        "sector": "Ulaştırma",
+        "status": "OPEN"
     }
 ]
