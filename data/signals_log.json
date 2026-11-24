@@ -9352,5 +9352,47 @@
         "tv_rec": "BUY",
         "sector": "Otomotiv",
         "status": "OPEN"
+    },
+    {
+        "id": "ISATR_20261124_021432",
+        "timestamp": "2026-11-24 02:14:32",
+        "date": "2026-11-24",
+        "symbol": "ISATR",
+        "entry_price": 4950000.0,
+        "tp_price": 5128200.0,
+        "sl_price": 4831200.0,
+        "rsi": 71.79092369952785,
+        "adx": 76.12037122513168,
+        "tv_rec": "BUY",
+        "sector": "Genel Sanayi / Finans",
+        "status": "OPEN"
+    },
+    {
+        "id": "GARAN_20261124_021432",
+        "timestamp": "2026-11-24 02:14:32",
+        "date": "2026-11-24",
+        "symbol": "GARAN",
+        "entry_price": 145.7,
+        "tp_price": 150.95,
+        "sl_price": 142.2,
+        "rsi": 53.475408536361016,
+        "adx": 21.31191176575138,
+        "tv_rec": "BUY",
+        "sector": "Bankacılık",
+        "status": "OPEN"
+    },
+    {
+        "id": "TOASO_20261124_021433",
+        "timestamp": "2026-11-24 02:14:33",
+        "date": "2026-11-24",
+        "symbol": "TOASO",
+        "entry_price": 251.75,
+        "tp_price": 260.81,
+        "sl_price": 245.71,
+        "rsi": 58.133081679363194,
+        "adx": 27.984366401608202,
+        "tv_rec": "BUY",
+        "sector": "Otomotiv",
+        "status": "OPEN"
     }
 ]
